@@ -490,6 +490,7 @@
 		<firmware version="9.3.2" build="113F69" />
 		<firmware version="9.3.3" build="13G34" />
 		<firmware version="9.3.4" build="13G35" />
+		<firmware version="10.2.1" build="14D27" />
 	</hardware>
 	
 	<hardware name="iPad1,1" model="K48AP" description="iPad">
