@@ -5,9 +5,9 @@ Maintainer: 2Klasic <2Klasic@outlook.com>
 Depends: firmware(>= 5.0), mobilesubstrate
 Filename: ./debs/com.2klasic.flex_1.05_iphoneos-arm.deb
 Size: 413372
-MD5sum: ad68031866141675f4e8fb07b8f77ed0
-SHA1: 07f2b28a27bc8d276aea87848364821b1c4af92a
-SHA256: 80bb4e1a338315b8050474b37d726645f8b7297ad05a84bb19b5515c619a58e5
+MD5sum: 13fb274b97187bfe1c184ea1e744cca8
+SHA1: b2900f78ab9cece5cb659f3129ebf21974882140
+SHA256: bd93579377be3222807f899f8090fafeeb04fa4427cbc32d94839dd9a719bc54
 Section: Tweak
 Description: Make your own tweaks, easily!
 Author: 2Klasic <2Klasic@outlook.com>
@@ -22,9 +22,9 @@ Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
 Size: 142372
-MD5sum: 30d1cbcc89f1906315f320ae79db9fe4
-SHA1: 6c618a6d8806df53e295b3bd43a6aee75a3c0a89
-SHA256: db339531c93dc20973f238ecdd0ae5eb9f9b81ff0b378a1fa4e2b0ee95127b22
+MD5sum: d79ab6f3e22fc7086307e5338395f251
+SHA1: e20535bc709e84152a1a805c638b550942c2933f
+SHA256: 20d4efb18b2024ceee669efcc302b3525dbf2d3c9c1f4102503bffb2832152cc
 Section: Tweaks
 Description: bypass anti-jailbreak protection on some of your favorite apps.
 Author: 2Klasic <2Klasic@outlook.com>
@@ -37,10 +37,10 @@ Architecture: iphoneos-arm
 Maintainer: 2Klasic <derobi@icloud.com>
 Installed-Size: 5819
 Filename: ./debs/com.aerialx.ishshit_1.2.1_iphoneos-arm.deb
-Size: 3318140
-MD5sum: 7a14f0b5a3f64615fa96701a3392dd4d
-SHA1: 8922dde8ea660b6be2bf781ff662436a28bad4e5
-SHA256: 1b8f670deb7f042694ecffb020b896c80487c3d38854482a8e6907a8705e2dbc
+Size: 3319680
+MD5sum: ec4173ebd3832f1b78bc52bef4648604
+SHA1: c21c6c1aec8ea415ddf411613025466247be6a06
+SHA256: 7c4e77ab321a505015954c65faa4faaeb15aaa825793ad88ece606ad39aaa082
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”!
