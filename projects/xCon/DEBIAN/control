@@ -1,4 +1,4 @@
-Package: com.2Klasic.xcon
+Package: com.2Klasic.xCon
 Name: xCon
 Depends: mobilesubstrate
 Version: 42~beta2
@@ -10,8 +10,4 @@ Section: Tweaks
 Depiction: http://xcon.crazy.net/depictions/index.html?p=com.n00neimp0rtant.xcon
 Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
-
-
-
-
 
