@@ -5,9 +5,9 @@ Maintainer: 2Klasic <2Klasic@outlook.com>
 Depends: firmware(>= 5.0), mobilesubstrate
 Filename: ./debs/com.2klasic.flex_1.05_iphoneos-arm.deb
 Size: 413372
-MD5sum: b1f838ec2be2b805a21715c003ba7fc7
-SHA1: d1a1406928e83757580a7464ce59c2a8672612fc
-SHA256: dbd289ac51ea0552ad9bf52b0a5fa2c23587812764b7f9edce94efc729642006
+MD5sum: ad68031866141675f4e8fb07b8f77ed0
+SHA1: 07f2b28a27bc8d276aea87848364821b1c4af92a
+SHA256: 80bb4e1a338315b8050474b37d726645f8b7297ad05a84bb19b5515c619a58e5
 Section: Tweak
 Description: Make your own tweaks, easily!
 Author: 2Klasic <2Klasic@outlook.com>
@@ -22,12 +22,31 @@ Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
 Size: 142372
-MD5sum: c092f2d1e64a83ac58b7411aaa965e69
-SHA1: 61b22a0a1157af6e39fca2b776492634656f602f
-SHA256: 1771c046f0820d9ae71e01e974378dbdec34b2fd6db142eea284646a5b5892c7
+MD5sum: 30d1cbcc89f1906315f320ae79db9fe4
+SHA1: 6c618a6d8806df53e295b3bd43a6aee75a3c0a89
+SHA256: db339531c93dc20973f238ecdd0ae5eb9f9b81ff0b378a1fa4e2b0ee95127b22
 Section: Tweaks
 Description: bypass anti-jailbreak protection on some of your favorite apps.
 Author: 2Klasic <2Klasic@outlook.com>
 Depiction: http://xcon.crazy.net/depictions/index.html?p=com.n00neimp0rtant.xcon
 Name: xCon
+
+Package: com.aerialx.ishshit
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: 2Klasic <derobi@icloud.com>
+Installed-Size: 5819
+Filename: ./debs/com.aerialx.ishshit_1.2.1_iphoneos-arm.deb
+Size: 3318140
+MD5sum: 7a14f0b5a3f64615fa96701a3392dd4d
+SHA1: 8922dde8ea660b6be2bf781ff662436a28bad4e5
+SHA256: 1b8f670deb7f042694ecffb020b896c80487c3d38854482a8e6907a8705e2dbc
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
+Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”!
+Author: Aaron Lindsay <aaron@aaronlindsay.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
+Dev: aerialx
+Icon: file:///Applications/iSHSHit.app/Icon.png
+Name: iSHSHit
 
