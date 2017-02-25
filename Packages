@@ -6,9 +6,9 @@ Installed-Size: 763
 Depends: firmware(>= 5.0), mobilesubstrate
 Filename: ./debs/com.2klasic.flex_1.05_iphoneos-arm.deb
 Size: 413378
-MD5sum: d3204d3fe611bbe9b2413bce48197bc4
-SHA1: fbe2e713024769049c1de816b692dea41c17e958
-SHA256: 9fd6baf0f8cb4aa57132ab1243f2e46cb4f1a4c5c56ff48cc53806328cb27a1f
+MD5sum: 94359099e928e45cdbadabe1e96341ca
+SHA1: 8233c73e4953c621afc054edaecbc4da1a101a59
+SHA256: f2e95fe19861beb545100a479652d594d1259c3f495afd07bca54a70ac6f636e
 Section: Tweak
 Description: Make your own tweaks, easily!
 Author: 2Klasic <2Klasic@outlook.com>
@@ -23,9 +23,9 @@ Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
 Size: 142352
-MD5sum: 155b573c49e3c07d32da7aaef7c93dda
-SHA1: 0c8519fdabd95cb951b591ad140ead35a75dc911
-SHA256: 721718463bb2e7a6c2a49f4763f5bf74103d992b1dac733c8e0d0f2d5ea63c79
+MD5sum: c47e46d1a20b4713d1408b2f6dcd22a5
+SHA1: 7c4ab00f0353c8e08b5624e7234cd7d7425cce39
+SHA256: ae64f3afbf641c7cc0c60d9f73223ebccb532847a8a0cd8719aa94cdb87273c1
 Section: Tweaks
 Description: bypass anti-jailbreak protection
 Author: 2Klasic <2Klasic@outlook.com>
