@@ -5,29 +5,11 @@ Maintainer: 2Klasic <2Klasic@outlook.com>
 Depends: firmware(>= 5.0), mobilesubstrate
 Filename: ./debs/com.2klasic.flex_1.05_iphoneos-arm.deb
 Size: 413372
-MD5sum: c8b4a955a5c0bd87a0467f93baad7e8c
-SHA1: 500f3c3dd90c633472e99ca1045d0b307a325f6e
-SHA256: 306ff5124d4d58617f3ce015ec7514e278f48ccd4a86d79a53dca8305cc16e02
+MD5sum: 126c1dacf711f3169e64e38716e71583
+SHA1: 73b4b38e523bbfba67e1b9f986e5cfc6e9522c51
+SHA256: 52a2c479ae2109158d8709d028a57a1019a72150fd12e1eeb495dc5cfa4b3a4c
 Section: Tweak
 Description: Make your own tweaks, easily!
 Author: 2Klasic <2Klasic@outlook.com>
 Name: Flex
-
-Package: com.2Klasic.xCon
-Version: 42~beta2
-Architecture: iphoneos-arm
-Maintainer: 2Klasic <2Klasic@outlook.com>
-Depends: mobilesubstrate
-Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
-Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
-Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
-Size: 142352
-MD5sum: cd56daa244ba4fde12e1c953f0e79b59
-SHA1: 8e9caaadf8ccdf142a8548f93e2fa50d36a4715d
-SHA256: 5362428c5ac790a5e5338249b664e0bb4f5406bcc5391d62d84df8c5df9c54e8
-Section: Tweaks
-Description: bypass anti-jailbreak protection
-Author: 2Klasic <2Klasic@outlook.com>
-Depiction: http://xcon.crazy.net/depictions/index.html?p=com.n00neimp0rtant.xcon
-Name: xCon
 
