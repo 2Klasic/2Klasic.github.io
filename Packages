@@ -5,9 +5,9 @@ Maintainer: 2Klasic <2Klasic@outlook.com>
 Depends: firmware(>= 5.0), mobilesubstrate
 Filename: ./debs/com.2klasic.flex_1.05_iphoneos-arm.deb
 Size: 413372
-MD5sum: 13fb274b97187bfe1c184ea1e744cca8
-SHA1: b2900f78ab9cece5cb659f3129ebf21974882140
-SHA256: bd93579377be3222807f899f8090fafeeb04fa4427cbc32d94839dd9a719bc54
+MD5sum: 94510695f03dea033098814802de983c
+SHA1: f4c0affd2202221e0f4e82fb8d82c4763dc3894e
+SHA256: 1e8db57f76d34d545f3af0c836e81d2d251876eda4ff3a3ead5939bedd7c13db
 Section: Tweak
 Description: Make your own tweaks, easily!
 Author: 2Klasic <2Klasic@outlook.com>
@@ -21,10 +21,10 @@ Depends: mobilesubstrate
 Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
-Size: 142372
-MD5sum: d79ab6f3e22fc7086307e5338395f251
-SHA1: e20535bc709e84152a1a805c638b550942c2933f
-SHA256: 20d4efb18b2024ceee669efcc302b3525dbf2d3c9c1f4102503bffb2832152cc
+Size: 142386
+MD5sum: b6ad761cccc66b13492a20802d7efc91
+SHA1: 9dd69c782b17f0e65f18504466422459ad27e067
+SHA256: c9e55bf6899149c25dafd4d68042d42bdf9c660933e382e0477f8ded66a14282
 Section: Tweaks
 Description: bypass anti-jailbreak protection on some of your favorite apps.
 Author: 2Klasic <2Klasic@outlook.com>
@@ -37,10 +37,10 @@ Architecture: iphoneos-arm
 Maintainer: 2Klasic <derobi@icloud.com>
 Installed-Size: 5819
 Filename: ./debs/com.aerialx.ishshit_1.2.1_iphoneos-arm.deb
-Size: 3319680
-MD5sum: ec4173ebd3832f1b78bc52bef4648604
-SHA1: c21c6c1aec8ea415ddf411613025466247be6a06
-SHA256: 7c4e77ab321a505015954c65faa4faaeb15aaa825793ad88ece606ad39aaa082
+Size: 3319098
+MD5sum: f2d0029eb871bbfdd1b9d635dd1daa41
+SHA1: feed8e1c31555e3144b666143e0798f52c29135a
+SHA256: 9437fb78bafdcd682157d5587459afe8aedc96b7fa7ef8fe2336538e02d398b9
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”!
