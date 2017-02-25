@@ -1,0 +1,17 @@
+Package: com.2Klasic.xcon
+Name: xCon
+Depends: mobilesubstrate
+Version: 42~beta2
+Architecture: iphoneos-arm
+Description: bypass anti-jailbreak protection
+Maintainer: 2Klasic <2Klasic@outlook.com>
+Author: 2Klasic <2Klasic@outlook.com>
+Section: Tweaks
+Depiction: http://xcon.crazy.net/depictions/index.html?p=com.n00neimp0rtant.xcon
+Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
+Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
+
+
+
+
+

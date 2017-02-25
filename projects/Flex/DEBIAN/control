@@ -1,0 +1,14 @@
+Author: 2Klasic <2Klasic@outlook.com>
+Maintainer: 2Klasic <2Klasic@outlook.com>
+Name: Flex
+Package: com.2Klasic.flex
+Depends: firmware(>= 5.0), mobilesubstrate
+Section: Tweak
+Installed-Size: 763
+Version: 1.05
+Architecture: iphoneos-arm
+Description: Make your own tweaks, easily!
+
+
+
+

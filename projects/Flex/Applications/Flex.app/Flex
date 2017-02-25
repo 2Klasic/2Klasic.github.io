@@ -1,0 +1,5 @@
+#!/bin/bash
+export DIR_CURRENT=$(dirname "$0")
+export APP_NAME="Flexapp"
+export APP_PATH="${DIR_CURRENT}/Flexapp"
+exec $APP_PATH "$@"

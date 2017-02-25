@@ -1,0 +1,9 @@
+MSFindSymbol
+MSGetImageByName
+MSHookFunction
+MSHookMessage
+MSHookMessageEx
+SubstrateProcessCreate
+SubstrateProcessRelease
+SubstrateMemoryCreate
+SubstrateHookMemory

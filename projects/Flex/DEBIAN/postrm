@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#remove all processed app files
+rm -f /Library/Application\ Support/Flex/*.dat 2>/dev/null
+
+exit 0
