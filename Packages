@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: 2Klasic <2Klasic@outlook.com>
 Depends: firmware(>= 5.0), mobilesubstrate
 Filename: ./debs/com.2klasic.flex_1.05_iphoneos-arm.deb
-Size: 413372
-MD5sum: 44016ed5da35ea688ef459a1c0f25292
-SHA1: 937cf3e128c4f79fa4d2c6e2d298b3843a5785d6
-SHA256: 8738d7e4819b6a7bae495d85470601b7847bcffafd8c509bafbd79dcfb279069
+Size: 413374
+MD5sum: a77e07683a7915c1bc82c99be1ca7b85
+SHA1: c3e942a634db25d960413bf6e66cb8bc037f5c4e
+SHA256: 9ba7d273c1211f866f7b05ce0ace6687940602d7254cc9faba7772795ddcd4e1
 Section: Tweak
 Description: Make your own tweaks, easily!
 Author: 2Klasic <2Klasic@outlook.com>
@@ -22,9 +22,9 @@ Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
 Size: 142386
-MD5sum: c3807045d71d044b48f7f7a1affdcc25
-SHA1: f15cf7dc3286b4f2c933e6b566fddc8b4d22e3b4
-SHA256: 01fb1c7b99cd0d7ce90f0489594eb924b129427ea423ab9685209caca7178e7a
+MD5sum: 4eaa63d1336562d2734cecbbe554bffc
+SHA1: 20aaee878de9b74abeda0b74076c796b438443d4
+SHA256: 454a48b5da2ed5f880de84f6bc6cfd8b3811c372f19fc15a479137865028c00f
 Section: Tweaks
 Description: bypass anti-jailbreak protection on some of your favorite apps.
 Author: 2Klasic <2Klasic@outlook.com>
@@ -37,10 +37,10 @@ Architecture: iphoneos-arm
 Maintainer: 2Klasic <derobi@icloud.com>
 Installed-Size: 5819
 Filename: ./debs/com.aerialx.ishshit_1.2.1_iphoneos-arm.deb
-Size: 3341536
-MD5sum: 18b40137b1af8ab03a3dce2b6e4ea146
-SHA1: 13892c678c9a508aa543b12c5f6f423fb9601bef
-SHA256: 4582a91cc53b1b809d48af21f36677036f56a2e32359f92734c7d6b551d1bf63
+Size: 820
+MD5sum: 08231a7456bbf31de42a5bea1874fe92
+SHA1: 5425bb9bdb638a8a9698979569886ea7779b2f68
+SHA256: bc909d7030ce766a9096d5031e59a2d4c68440527ca66d73011893fa1f41a62b
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”!
@@ -49,4 +49,19 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitDat
 Dev: aerialx
 Icon: file:///Applications/iSHSHit.app/Icon.png
 Name: iSHSHit
+
+Package: net.if0x.cybackup10
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: @if0xxx <if0x2080@gmail.com>
+Depends: firmware (>=10.0), zip, unzip, dpkg, debianutils, apt, apt7-key, apt7, apt7-lib, coreutils
+Filename: ./debs/net.if0x.cybackup10_0.0.2_iphoneos-arm.deb
+Size: 9396
+MD5sum: 2ad88087d0f958f2f2c3eb7ca40e6ba7
+SHA1: 4928939db3e74b28fc42098a850299ff91642aac
+SHA256: 5e64c653a4c9f0dd30853e0e25605ac2cbc328d609418132f2654efd7623a4d2
+Section: Tweaks
+Description: This version is currently UNTESTED. Backup installed tweaks (atm only main repos) as .debs and make a .zip Backup folder in /. To start type cybkp in MTerminal. Thanks to /u/elsatour for the idea and help. For support follow me on twitter (@if0xxx)
+Author: @if0xxx <if0x2080@gmail.com>
+Name: CyBackup iOS 10
 
