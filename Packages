@@ -1,12 +1,12 @@
 Package: com.2Klasic.BobbyMovie
-Version: 2.3.0
+Version: 3.0.1
 Architecture: iphoneos-arm
 Maintainer: @2Klasic <2Klasic@icloud.com>
-Filename: ./debs/com.2klasic.bobbymovie_2.3.0_iphoneos-arm.deb
-Size: 7699156
-MD5sum: 6b1da38bb8aa93fd87afe534fbf15799
-SHA1: 572d63dcdd1425d7835e123b19c41fd50bd38aa4
-SHA256: e24743c2dcea404ac34a78751408c1dcd2cd3ab0d789c7212bfd87efc68606a0
+Filename: ./debs/com.2klasic.bobbymovie_3.0.1_iphoneos-arm.deb
+Size: 9227750
+MD5sum: 9d54262661dc8601d24873de411d1275
+SHA1: 785e15b184e5fa1236252472e73330357019b079
+SHA256: 88acf7d261fc376bcf92d7e3cb3d307139a90d6fe040227e6cbe088b513d8953
 Section: Tweaks
 Description: Enjoy your favorite movies on the go. To keep this site thriving strong ensure you use a VPN
 Author: @Bobby Movie Team <2Klasic@icloud.com>
@@ -19,9 +19,9 @@ Maintainer: 2Klasic <2Klasic@outlook.com>
 Depends: firmware(>= 5.0), mobilesubstrate
 Filename: ./debs/com.2klasic.flex_1.05_iphoneos-arm.deb
 Size: 413308
-MD5sum: 70d3c04bd695751fd72f233c52019446
-SHA1: 4117ff22fe84581865c1696d83a79f1a7112b406
-SHA256: 049187f1ebb96b497bac54e1c3eec2562a244d15be688d4ec881a5651440a96e
+MD5sum: 65c0b09d60351bed37e3c1983be9632b
+SHA1: 2a117ca946b1e45f5d44e953300904f8ad16dc5b
+SHA256: 42623e4a1b709d8ca6773c6d8a1dddb20693a1d38af8e8c202dc8b57d1dfa6df
 Section: Tweak
 Description: Make your own tweaks, easily!
 Author: 2Klasic <2Klasic@outlook.com>
@@ -36,9 +36,9 @@ Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
 Size: 142366
-MD5sum: 04ded721207192b8223e6f5e10d36725
-SHA1: 06fad3fd22aad344da9efdec71fd224e2248d63d
-SHA256: ddd5ed9ab8b0cd3e3bc94ed9791285c7c8fbdcecf9e7ab0f277aa706aaffba4e
+MD5sum: 3c43e4eb5039689bec9a64698650f8b4
+SHA1: 0ded58a1310610f236242227bb3ce5508fd95fc2
+SHA256: 837110dc55f6a9cce513ba8e07238fe8f27684966e9e353289ead5a78d9f42c3
 Section: Tweaks
 Description: bypass anti-jailbreak protection on some of your favorite apps.
 Author: 2Klasic <2Klasic@outlook.com>
@@ -52,9 +52,9 @@ Maintainer: 2Klasic <derobi@icloud.com>
 Installed-Size: 5819
 Filename: ./debs/com.aerialx.ishshit_1.2.1_iphoneos-arm.deb
 Size: 786
-MD5sum: 1d3243bea65c6292ce2e7d66e171fec3
-SHA1: 1ccfeff589b83b8c420276dbfba5c7117c0f17f6
-SHA256: cf75734f89695d88234d7688dd5a92de0c34f7bf02e7d29ef5289a4bcce5d87b
+MD5sum: ad40e9154aec0042dbfad74e68fb4708
+SHA1: 0f8363ad11e1da000a91960d935864a08d0af725
+SHA256: 52fbfca5e06972d49ee64e7bff53e92241c4fb2ff55262117641dcd98053e541
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”!
@@ -71,9 +71,9 @@ Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=10.0), zip, unzip, dpkg, debianutils, apt, apt7-key, apt7, apt7-lib, coreutils
 Filename: ./debs/net.if0x.cybackup10_0.0.2_iphoneos-arm.deb
 Size: 9340
-MD5sum: 2deffb26a5116c3779883067c2af2e8c
-SHA1: 078524f901208b0b0882daf9d4d8002a762c1486
-SHA256: 2a16f1c169f4ef0ef3c7cf5d03ed34005f7d325ebe91bcaeaa82156786d8116a
+MD5sum: a09b8caf6f83612a21b8f6f8705b054f
+SHA1: aeea8eb82dde17097475eae6ee9678730da249f6
+SHA256: 1fba9cdea58c078c6d245516d536f94a18d54eceaa9ff3d631c16a0ee467cc36
 Section: Tweaks
 Description: This version is currently UNTESTED. Backup installed tweaks (atm only main repos) as .debs and make a .zip Backup folder in /. To start type cybkp in MTerminal. Thanks to /u/elsatour for the idea and help. For support follow me on twitter (@if0xxx)
 Author: @if0xxx <if0x2080@gmail.com>
