@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#del cache file for 1.5.1
+rm -f /var/mobile/Documents/IAPCrazy/prefer/support*
+
+exit 0

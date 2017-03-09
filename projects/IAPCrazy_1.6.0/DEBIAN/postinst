@@ -1,0 +1,25 @@
+#!/bin/sh
+
+if [[ $1 == upgrade ]]; then
+    /bin/launchctl unload /Library/LaunchDaemons/com.youyuanapp.IAPCrazyDemond.plist
+fi
+
+chown root:wheel /usr/libexec/IAPCrazyDemond
+chmod 755 /usr/libexec/IAPCrazyDemond
+chown root:wheel /Library/LaunchDaemons/com.youyuanapp.IAPCrazyDemond.plist
+chmod 644 /Library/LaunchDaemons/com.youyuanapp.IAPCrazyDemond.plist
+
+chown root:wheel /Applications/IAPCrazy.app/IAPCrazy
+chmod 755 /Applications/IAPCrazy.app/IAPCrazy
+
+prefix=`date +%s`
+postfix=`date +%N`
+
+mv /Library/MobileSubstrate/DynamicLibraries/IAPCrazy.dylib /Library/MobileSubstrate/DynamicLibraries/"$prefix"IAPCrazy"$postfix".dylib
+mv /Library/MobileSubstrate/DynamicLibraries/IAPCrazy.plist /Library/MobileSubstrate/DynamicLibraries/"$prefix"IAPCrazy"$postfix".plist
+
+/bin/launchctl load /Library/LaunchDaemons/com.youyuanapp.IAPCrazyDemond.plist
+
+su -c /usr/bin/uicache mobile
+
+exit 0

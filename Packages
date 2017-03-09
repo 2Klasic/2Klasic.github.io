@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer: @2Klasic <2Klasic@icloud.com>
 Filename: ./debs/com.2klasic.bobbymovie_3.0.1_iphoneos-arm.deb
 Size: 9264892
-MD5sum: 6e202d5a5cc910b9e7a04fa85d049cbe
-SHA1: ba4f113aa5ff39cf7c46ba6dd86e1ae4f2478d68
-SHA256: 5ab7b5003e49b72d637fec394e04bc7131c1adb378796ed22d7de3510f27dd07
+MD5sum: 38b428a7175f278ba065f5b6c5248871
+SHA1: 4af5014590a6e75f5e8eaaa85ad625f9d0749228
+SHA256: 1fcab60af61f94fa19c76ec9aa9a9d6bcc77794ebac7826e9cdd9585d6803004
 Section: Tweaks
 Description: Enjoy your favorite movies on the go. To keep this site thriving strong ensure you use a VPN
 Author: @Bobby Movie Team <2Klasic@icloud.com>
@@ -19,9 +19,9 @@ Maintainer: 2Klasic <2Klasic@outlook.com>
 Depends: firmware(>= 5.0), mobilesubstrate
 Filename: ./debs/com.2klasic.flex_1.05_iphoneos-arm.deb
 Size: 413308
-MD5sum: e9f6e7b030e83e6931d4f8ba7ecb0d38
-SHA1: 19da34f44661e175844d7b18ea937e4ab3ebb346
-SHA256: 5d1194f020e5cdb5dba55495e9bdb1c3fda9e773d6647173c5e2f965d59467ae
+MD5sum: d5f560b44f0f4853d9ed8cf64d589b25
+SHA1: 37a4df3a747c3cf216497c2e0f0c6586d8b80b91
+SHA256: bfe1138c217e062c35acb5892a6380dba343d209921e2daa30418c3f256b52a8
 Section: Tweak
 Description: Make your own tweaks, easily!
 Author: 2Klasic <2Klasic@outlook.com>
@@ -36,9 +36,9 @@ Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
 Size: 142366
-MD5sum: 9aca6dfc9813ac3e46397e2b0062cc29
-SHA1: 872209b3b4f434768944ea4b209e6ce6f8f60845
-SHA256: 2ed62bfa883db4f4e10fe28753f47425a7601353ccd2db0b7202ac9878a89669
+MD5sum: 139baba066450d66d827410f8a996a71
+SHA1: d9873eb5a9287220f45b500624264eab49db524d
+SHA256: 51cede7f2cc491cba86464a11541b4958092bdc356ae01f58c659a7b06d58173
 Section: Tweaks
 Description: bypass anti-jailbreak protection on some of your favorite apps.
 Author: 2Klasic <2Klasic@outlook.com>
@@ -51,10 +51,10 @@ Architecture: iphoneos-arm
 Maintainer: 2Klasic <derobi@icloud.com>
 Installed-Size: 5819
 Filename: ./debs/com.aerialx.ishshit_1.2.1_iphoneos-arm.deb
-Size: 786
-MD5sum: ece0f740c9dd832c5bef6e5edfca9006
-SHA1: a120c7a5f0208c03ba48f7bcb1cad0e962a00818
-SHA256: 00f0e8cf19b59a72041bbef42ed3fb71b5b10a6ed464308a89f38784516aa75e
+Size: 3377564
+MD5sum: 7f91f5f3d8271a3352f06129f000787f
+SHA1: 9362b2f4dbe0b4b263179bacfc32f21631f3191a
+SHA256: a964928639fa24f41357e51d952f7ea38f23e694735c614cd7275ca0e99a52db
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”!
@@ -71,11 +71,30 @@ Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=10.0), zip, unzip, dpkg, debianutils, apt, apt7-key, apt7, apt7-lib, coreutils
 Filename: ./debs/net.if0x.cybackup10_0.0.2_iphoneos-arm.deb
 Size: 9340
-MD5sum: 6849872a6063712b7d15ba4fca8fc8bc
-SHA1: 739db529ac609a31649af05f68345447c4e16deb
-SHA256: 6a1de2693ddf743d486ec987e6bfa21833285b8e795785dfd65c2f223e07a35e
+MD5sum: 221aa67b6ab40b6e1ae14019577dda49
+SHA1: 6807109bac9ecdfb2b097a4ea40ec134a6f1a2b5
+SHA256: f4545c28bb4643bbb81437bab26146585a132f6953f0885844fd16a1b53dbbe8
 Section: Tweaks
 Description: This version is currently UNTESTED. Backup installed tweaks (atm only main repos) as .debs and make a .zip Backup folder in /. To start type cybkp in MTerminal. Thanks to /u/elsatour for the idea and help. For support follow me on twitter (@if0xxx)
 Author: @if0xxx <if0x2080@gmail.com>
 Name: CyBackup iOS 10
+
+Package: zm.IAPCrazy
+Version: 1.6.0
+Architecture: iphoneos-arm
+Maintainer: songzhiming
+Depends: firmware (>= 7.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Filename: ./debs/zm.iapcrazy_1.6.0_iphoneos-arm.deb
+Size: 9733776
+MD5sum: 57fc3be48e3172a339752dac18a39792
+SHA1: aa3a5a08f586af227b4a31d4a4432d2da1dc8294
+SHA256: 21d82e0643ec55969eed94d849c4341b616b29d8649a9cbb59d3dc8963ec0fd5
+Section: Tweaks
+Homepage: www.youyuanapp.com
+Description: IAPCrazy 内购神器--1.6.0 for ios7.0~9.3.x
+Author: WWW.YouYuanApp.COM
+Depiction: http://apt.youyuanapp.com/info/iapcrazy/
+Dev: YouYuanApp <admin@youyuanapp.com>
+Icon: file:///Applications/IAPCrazy.app/AppIcon57x57.png
+Name: IAPCrazy
 

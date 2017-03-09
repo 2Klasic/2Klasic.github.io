@@ -1,0 +1,14 @@
+Package: zm.IAPCrazy
+Name: IAPCrazy
+Version: 1.6.0
+Description: IAPCrazy 内购神器--1.6.0 for ios7.0~9.3.x
+Section: Tweaks
+Depends: firmware (>= 7.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Author: WWW.YouYuanApp.COM
+dev: YouYuanApp <admin@youyuanapp.com>
+Homepage: www.youyuanapp.com
+Depiction: http://apt.youyuanapp.com/info/iapcrazy/
+Maintainer: songzhiming
+Icon: file:///Applications/IAPCrazy.app/AppIcon57x57.png
+

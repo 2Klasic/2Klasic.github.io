@@ -1,0 +1,10 @@
+#!/bin/sh
+
+/bin/launchctl unload /Library/LaunchDaemons/com.youyuanapp.IAPCrazyDemond.plist
+
+cd /Library/MobileSubstrate/DynamicLibraries
+
+rm -f *IAPCrazy*
+
+
+exit 0
