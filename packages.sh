@@ -3,6 +3,6 @@ dpkg-deb -bZgzip projects/flex debs
 dpkg-deb -bZgzip projects/xCon debs
 dpkg-deb -bZgzip projects/iSHSHit debs
 dpkg-deb -bZgzip projects/CyBackup debs
-dpkg-deb -bZgzip projects/BobbyMovie debs
+dpkg-deb -bZgzip projects/BobbyMovie_2.3.0 debs
 dpkg-deb -bZgzip projects/BobbyMovie_3.0.1 debs
 dpkg-deb -b Package3
