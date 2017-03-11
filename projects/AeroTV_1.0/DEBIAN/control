@@ -1,0 +1,9 @@
+Package: com.2Klasic.BobbyMovie
+Name: AeroTV
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Broadcast Network TV 
+Maintainer: @2Klasic <2Klasic@icloud.com>
+Author: @AeroTV <2Klasic@icloud.com>
+Depends: firmware (>=10.0)
+Section: Tweaks
