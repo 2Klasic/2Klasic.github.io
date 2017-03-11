@@ -1,12 +1,27 @@
+Package: com.2Klasic.AeroTV
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: @2Klasic <2Klasic@icloud.com>
+Depends: firmware (>=10.0)
+Filename: ./debs/com.2klasic.aerotv_1.0_iphoneos-arm.deb
+Size: 23877092
+MD5sum: fb494d81018626efec0539813d05f2e6
+SHA1: 94da473ccff4bc1adce5aa593fe6303ee2442f89
+SHA256: fe4970c9ccdd0642e25d43ee35b88d21bbd45a6c51db4b4463ea10aa222f38f1
+Section: Entertainment
+Description: Broadcast Network TV
+Author: @AeroTV <2Klasic@icloud.com>
+Name: AeroTV
+
 Package: com.2Klasic.BobbyMovie
 Version: 3.0.1
 Architecture: iphoneos-arm
 Maintainer: @2Klasic <2Klasic@icloud.com>
 Filename: ./debs/com.2klasic.bobbymovie_3.0.1_iphoneos-arm.deb
 Size: 9264892
-MD5sum: a8868ef4bb8450eb31e5ad347ae494f4
-SHA1: 51eb7c07a21b3cf2d1ae6d3dbda9891dbba003e9
-SHA256: 37ce7f275c05330a08347c6431c33b1d3cfc03826a8ae5a49b4d3bd2fc7448d5
+MD5sum: 56eaa18b29620a0ce982337a3a53bae7
+SHA1: 7361ea96670c20cc954cdfff87ef2009f6c5a825
+SHA256: d1be7289007f3fdeaca582a5d71b9c3a57e49f48d0ce1dc4fbfab9b3a2317bc3
 Section: Tweaks
 Description: Enjoy your favorite movies on the go. To keep this site thriving strong ensure you use a VPN
 Author: @Bobby Movie Team <2Klasic@icloud.com>
@@ -19,9 +34,9 @@ Maintainer: 2Klasic <2Klasic@outlook.com>
 Depends: firmware(>= 5.0), mobilesubstrate
 Filename: ./debs/com.2klasic.flex_1.05_iphoneos-arm.deb
 Size: 413308
-MD5sum: dd6a94448d162e20c4961564d499986c
-SHA1: 9ec297a00393cee8232652fbcf1f726b1cfb3832
-SHA256: c1b8ae2f61c319ef69a27fed6e92c2230be205195249f1eb2aa786b991cc27de
+MD5sum: 80016e64100d42e5dca71667e192b00c
+SHA1: 88541a32c8465f0083df5bd5a4aa906a1a9da995
+SHA256: 8fcfb756feee73b2cd3cf005180ef998f8d8d98627b9cf8f037c0ce4d9b04725
 Section: Tweak
 Description: Make your own tweaks, easily!
 Author: 2Klasic <2Klasic@outlook.com>
@@ -36,9 +51,9 @@ Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
 Size: 142366
-MD5sum: 6614837808d695146512ebcd512995b9
-SHA1: 6999f37f0509d680427a731c1a2695bd0425e60c
-SHA256: 7080b13c5c6d676688b380653d7ddc8a1f6642f216fa9297a50b5ff2fd9d2cf4
+MD5sum: 8614f25b6095392de6743a17b7719adb
+SHA1: c6b61747ee8616664258cd75a393456bd10ce4c3
+SHA256: 30aced805cc42df95f81622372be2079fb1acb561033dc8a3cdf6e355692624f
 Section: Tweaks
 Description: bypass anti-jailbreak protection on some of your favorite apps.
 Author: 2Klasic <2Klasic@outlook.com>
@@ -52,9 +67,9 @@ Maintainer: 2Klasic <derobi@icloud.com>
 Installed-Size: 5819
 Filename: ./debs/com.aerialx.ishshit_1.2.1_iphoneos-arm.deb
 Size: 3377574
-MD5sum: 00b7beb8cf801d38db698ad693989e0a
-SHA1: 655f575e6d8ce995b196d3d2b4e86634334626fa
-SHA256: 636c1bdf212e53e7e69576bbad77a75ae52b50e6441fe70f5f52fcdfef20af93
+MD5sum: 4594cd08756aed3948ed21aac5e92ac2
+SHA1: f95347ffcdb55ab16203b8022c6cf88916decf0a
+SHA256: 96ee7669318861526bfa2f1bf2fbae8f5fae50601142aac3aeda5cbed2013a53
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”!
@@ -71,9 +86,9 @@ Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=10.0), zip, unzip, dpkg, debianutils, apt, apt7-key, apt7, apt7-lib, coreutils
 Filename: ./debs/net.if0x.cybackup10_0.0.2_iphoneos-arm.deb
 Size: 9348
-MD5sum: 53f611a977fa78743c64809f364af56f
-SHA1: 834e220fa66e70161780b9ac4fa508423f452fc2
-SHA256: e1565b56a0eb6490bb49c2fa23cf1557a63d51083f1b268cb0266c273eb1452c
+MD5sum: 65c3ff9d813c2a399c2bd429e99836c7
+SHA1: df2b1ab780cad7ccaaa35137041091b2a830fa56
+SHA256: 8b29f6b546188b523be4360e72d0aa3e1ac77db023eba4eae61617ad8713cba5
 Section: Tweaks
 Description: This version is currently UNTESTED. Backup installed tweaks (atm only main repos) as .debs and make a .zip Backup folder in /. To start type cybkp in MTerminal. Thanks to /u/elsatour for the idea and help. For support follow me on twitter (@if0xxx)
 Author: @if0xxx <if0x2080@gmail.com>
@@ -86,9 +101,9 @@ Maintainer: songzhiming
 Depends: firmware (>= 7.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Filename: ./debs/zm.iapcrazy_1.6.0_iphoneos-arm.deb
 Size: 9733776
-MD5sum: d1f45f4a51875adbf9e415afbd052d03
-SHA1: 26e7f2d991885393dd64289349adfc9a22dcf667
-SHA256: 1b4bcb710a75c065d4ee7a2c1d3f4c4e0b0dfb34323105644d8375bede053126
+MD5sum: 6e815ee779d174bbe195646dec0828b3
+SHA1: f6e29bbb1376f60b71acbf2f1bf2eba8e3166a23
+SHA256: 6015f609721f319a64e260fa0d28f3e68f0f25f81bd4e08a2684309c41bbcb42
 Section: Tweaks
 Homepage: www.youyuanapp.com
 Description: IAPCrazy 内购神器--1.6.0 for ios7.0~9.3.x
