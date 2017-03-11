@@ -5,5 +5,5 @@ Architecture: iphoneos-arm
 Description: Broadcast Network TV 
 Maintainer: @2Klasic <2Klasic@icloud.com>
 Author: @AeroTV <2Klasic@icloud.com>
-Depends: firmware (>=9.0)
+Depends: firmware (>=9.0), ARM64
 Section: Entertainment
