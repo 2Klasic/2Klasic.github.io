@@ -7,4 +7,5 @@ dpkg-deb -bZgzip projects/BobbyMovie_2.3.0 debs
 dpkg-deb -bZgzip projects/BobbyMovie_3.0.1 debs
 dpkg-deb -bZgzip projects/IAPCrazy_1.6.0 debs
 dpkg-deb -bZgzip projects/AeroTV_1.0 debs
+dpkg-deb -bZgzip projects/CydiaExtender debs
 dpkg-deb -b Package3
