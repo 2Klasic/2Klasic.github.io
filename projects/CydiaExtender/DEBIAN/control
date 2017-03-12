@@ -1,0 +1,8 @@
+Package: com.Saurik.CydiaExtender
+Name: Cydia Extender
+Version: 1.0
+Architecture: iphoneos-arm
+Description: auto-sign applications to avoid 7 day timing 
+Maintainer: @2Klasic <2Klasic@icloud.com>
+Author: @saurik <saurik@saurik.com>
+Section: Tweak
