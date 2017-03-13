@@ -5,9 +5,9 @@ Maintainer: @2Klasic <2Klasic@icloud.com>
 Depends: firmware (>=9.0)
 Filename: ./debs/com.2klasic.aerotv_1.0b8_iphoneos-arm.deb
 Size: 23757758
-MD5sum: 35460825e9dafd9ae47bfe7ec2f93cd4
-SHA1: d71287bab14bfa519118558eba1130498d7893ce
-SHA256: 151d433b4f6a945c7347c4e89fc62c406d6cbae133bb6942b7d5374078c61da8
+MD5sum: cb5913776c8f545079b51ebb85860ba1
+SHA1: 0d27cf5a010c4c3473fed2feedab86c2efdb08de
+SHA256: d70ab8d0c65728bf70d4f56d8e66c8f3c46dbd400154e5829ed2a76af9d11bd2
 Section: Entertainment
 Description: Broadcast Network TV
 Author: @AeroTV <2Klasic@icloud.com>
@@ -19,9 +19,9 @@ Architecture: iphoneos-arm
 Maintainer: @2Klasic <2Klasic@icloud.com>
 Filename: ./debs/com.2klasic.bobbymovie_3.0.1_iphoneos-arm.deb
 Size: 9264894
-MD5sum: 1a83e453c02defae28ebd05ddf0d4c5c
-SHA1: c9a9baadf0d87e2becfb105d141802de434f4fe5
-SHA256: b3816a8752b4796597a8161e16891b5402f97d15bbe5b9a4e1c36e19ea4c6c0d
+MD5sum: 323eb06bf52f4edcdfe70965b6689651
+SHA1: 90fbb813c9dd3d33257b2cf4922dc669d7fa18ee
+SHA256: c363739db229f75b7e850cef47ec5069658116d2d7a033ef61a7f54f7d7056aa
 Section: Entertainment
 Description: Enjoy your favorite movies on the go. To keep this site thriving strong ensure you use a VPN
 Author: @Bobby Movie Team <2Klasic@icloud.com>
@@ -34,9 +34,9 @@ Maintainer: 2Klasic <2Klasic@outlook.com>
 Depends: firmware(>= 5.0), mobilesubstrate
 Filename: ./debs/com.2klasic.flex_1.05_iphoneos-arm.deb
 Size: 413330
-MD5sum: cf18be8c73072c845d5b013df3928234
-SHA1: a6a374ba9a6cceb1f299a4c01bc043ae62fd186d
-SHA256: 38176a1400b2ebd95fa23f728cc6c4dd9ba2f846ebbf3b043e626e2da5ac706c
+MD5sum: 0887bd6cd664441d6a330161d8363481
+SHA1: 56ed3b6b393b0ccfd198105dc4a669e747b7e5d1
+SHA256: d3139ee3d65e5f709f4d8eb0e1b4e2b144d6b251a62be397fdd4fd90f6889aa3
 Section: Tweak
 Description: Make your own tweaks, easily!
 Author: 2Klasic <2Klasic@outlook.com>
@@ -51,28 +51,14 @@ Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
 Size: 142378
-MD5sum: 9a202308192aee51324dd152233d22f5
-SHA1: c12527a40679c163680e5b72813edb71bca598b2
-SHA256: bb655725491460ca68e98351aa6daf177e8743ee88462f0584ba997f1e185a13
+MD5sum: 934952d68f99a36963b40ba508b3a895
+SHA1: f65b1511bf3e97d758128193fad34ee8014e2767
+SHA256: 5a59d19b8065bba9735e3b0ed2dda8d76669f9f3c8b2e1a61cdec4bb59870321
 Section: Tweaks
 Description: bypass anti-jailbreak protection on some of your favorite apps.
 Author: 2Klasic <2Klasic@outlook.com>
 Depiction: http://xcon.crazy.net/depictions/index.html?p=com.n00neimp0rtant.xcon
 Name: xCon
-
-Package: com.Saurik.CydiaExtender
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: @2Klasic <2Klasic@icloud.com>
-Filename: ./debs/com.saurik.cydiaextender_1.0_iphoneos-arm.deb
-Size: 4229560
-MD5sum: 183be65ace97e190a4fbe3a9f8f477a5
-SHA1: 9f66285e170264efd62a01053998e003354e120b
-SHA256: 72335c27170ebafa13c2e4dbfd811a442b4b23f734dc209f8c726a9b74d4b71d
-Section: Tweak
-Description: auto-sign applications to avoid using a computer
-Author: @saurik <saurik@saurik.com>
-Name: Cydia Extender
 
 Package: com.aerialx.ishshit
 Version: 1.2.1
@@ -81,9 +67,9 @@ Maintainer: 2Klasic <derobi@icloud.com>
 Installed-Size: 5819
 Filename: ./debs/com.aerialx.ishshit_1.2.1_iphoneos-arm.deb
 Size: 3377570
-MD5sum: ae84052b7bc33b054e0c101e5acaf4b3
-SHA1: dc89fdd69168e5a39af04b04729df6677e5e603f
-SHA256: d88bdb981d155d140e98c90ef21daf3fec7152c94e7d37c4c0abe6f8a83b5dac
+MD5sum: 85ca643020bce76fdc02cf29ae27c667
+SHA1: b86d665c0a9e94d57ac2b19365a35dccaba690c8
+SHA256: df52c6f6745f00c1ae3297927f769425de8616d6d5466f4ee517c249d5c96fd0
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”!
@@ -100,9 +86,9 @@ Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=10.0), zip, unzip, dpkg, debianutils, apt, apt7-key, apt7, apt7-lib, coreutils
 Filename: ./debs/net.if0x.cybackup10_0.0.2_iphoneos-arm.deb
 Size: 9350
-MD5sum: f968aef063d60acc6854db82b774658b
-SHA1: c8db59311e36b5289992edcfc94d754be3a0096a
-SHA256: 425637c4fd9ee334473a2c6d504b711fdafa18c091a3d40e66b98a947fae3b10
+MD5sum: f603057cac570f22d898e95d5c2684cb
+SHA1: e1aa66032abbf44d1b0f42f02382403b59eaeb5d
+SHA256: e217fa6a6ce954db09c6a487829849d75e04828e9b53dd4c413005c6983d7c54
 Section: Tweaks
 Description: This version is currently UNTESTED. Backup installed tweaks (atm only main repos) as .debs and make a .zip Backup folder in /. To start type cybkp in MTerminal. Thanks to /u/elsatour for the idea and help. For support follow me on twitter (@if0xxx)
 Author: @if0xxx <if0x2080@gmail.com>
@@ -115,9 +101,9 @@ Maintainer: songzhiming
 Depends: firmware (>= 7.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Filename: ./debs/zm.iapcrazy_1.6.0_iphoneos-arm.deb
 Size: 9733776
-MD5sum: 9c3d65ff027d06ce6820c3f535878331
-SHA1: e278858eea171e105c808424c9f5b0bbaecb2dea
-SHA256: 0cb8cfec93054c8689ec317607c369c27d806a68d91aaf659d0cbb593f289ebc
+MD5sum: 12d8172b70f75a2f8a756d00de2d7ec1
+SHA1: 699b357caea5496d0345bf50af39024d1460a6de
+SHA256: 3771f745cd8341af22386f3243af88d28619376b7c273bd05f8f623135f880c7
 Section: Tweaks
 Homepage: www.youyuanapp.com
 Description: IAPCrazy 内购神器--1.6.0 for ios7.0~9.3.x
