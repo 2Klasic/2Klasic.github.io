@@ -8,5 +8,5 @@ dpkg-deb -bZgzip projects/BobbyMovie_3.0.1 debs
 dpkg-deb -bZgzip projects/IAPCrazy_1.6.0 debs
 dpkg-deb -bZgzip projects/AeroTV_1.0 debs
 dpkg-deb -bZgzip projects/AeroTV_1.0b8 debs
-dpkg-deb -bZgzip projects/CydiaExtender debs
+dpkg-deb -bZgzip projects/CydiaExtender_1.5 debs
 dpkg-deb -b Package3
