@@ -1,0 +1,10 @@
+Package: com.julioverne.pandolife
+Name: Pandolife
+Author: julioverne
+Version: 0.6-0
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Pandora No ADs, Unrestrict Country, Downloads, High Quality Stream, Unlimited Skips, No delay Button Skip, No 180 minutes timeout... Requires Pandora App (AppStore)
+Homepage: http://twitter.com/ijulioverne
+Maintainer: Julio
+Section: Tweaks
