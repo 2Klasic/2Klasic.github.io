@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#update.sh
+su apt-get update
