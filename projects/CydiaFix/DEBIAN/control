@@ -6,4 +6,4 @@ Description: This version is designed to resolve comman issues with cydia. To ru
 Maintainer: @2klasic <2klasic@icloud.com>
 Author: @2klasic <2klasic@icloud.com>
 Section: Tweaks
-Depends: mterminal, apt, apt7-key, apt7, apt7-lib, coreutils
+Depends: apt, apt7-key, apt7, apt7-lib, coreutils

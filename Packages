@@ -5,9 +5,9 @@ Maintainer: @2Klasic <2Klasic@icloud.com>
 Depends: firmware (>=9.0)
 Filename: ./debs/com.2klasic.aerotv_1.0b8_iphoneos-arm.deb
 Size: 23757758
-MD5sum: d88803ede6d47e4583ab28eb6d1023fc
-SHA1: 5ef45cf6405b3101284908ab096f020b120158a1
-SHA256: 63c651c34ca8f49be523ede2d56aafda5fde7267689b3fd9c93821c10c50ebda
+MD5sum: e5bb5ceba91430893c1e5f03bfcf6fd3
+SHA1: fb39dd286634af7ee969bd594ddf3d226ef5b640
+SHA256: 2625c0d914a3321d20ade16dbb3efdb347910c07806f8f57afbd96d43efc0aea
 Section: Entertainment
 Description: Broadcast Network TV
 Author: @AeroTV <2Klasic@icloud.com>
@@ -19,9 +19,9 @@ Architecture: iphoneos-arm
 Maintainer: @2Klasic <2Klasic@icloud.com>
 Filename: ./debs/com.2klasic.bobbymovie_3.0.1_iphoneos-arm.deb
 Size: 9264908
-MD5sum: 1bfdcffe4580a1f3a06409aff2e76c42
-SHA1: 1293348793440ff53784769483d88ff9ccd81c45
-SHA256: 3cbd314b330e0978498f33909a8d666d652093df18c8f5bdc61b2bfbcf833026
+MD5sum: 05900282e8a6a1253dbef2684e445b76
+SHA1: 894988319ef5c79999619e658e52d9535c3bf687
+SHA256: 8bc7fede1bb02f0775a3079d3823f1d55882b71f7f9405b809e2c22781c8ff68
 Section: Entertainment
 Description: Enjoy your favorite movies on the go. To keep this site thriving strong ensure you use a VPN
 Author: @Bobby Movie Team <2Klasic@icloud.com>
@@ -31,12 +31,12 @@ Package: com.2Klasic.Fix
 Version: 0.0.1
 Architecture: iphoneos-arm
 Maintainer: @2klasic <2klasic@icloud.com>
-Depends: mterminal, apt, apt7-key, apt7, apt7-lib, coreutils
+Depends: apt, apt7-key, apt7, apt7-lib, coreutils
 Filename: ./debs/com.2klasic.fix_0.0.1_iphoneos-arm.deb
-Size: 780
-MD5sum: 21d759739d900704087a47b0cbcb91e6
-SHA1: 6c892d0680bbf871b9b193088b50a23e13d1d89b
-SHA256: 814db009da20cde11f735a4c3fbb3a89db9eb8d7a90ea05a832648383eaba917
+Size: 776
+MD5sum: d09ffd3375054274494041f48c75a88e
+SHA1: 653eb10fac8acd1bd11d0217d3a304bb8621db06
+SHA256: c85d526d4128995aa29e91bb3ff956b6c4fa46cbec3c8527e38e8378945ecba9
 Section: Tweaks
 Description: This version is designed to resolve comman issues with cydia. To run this package install mterminal and type apt
 Author: @2klasic <2klasic@icloud.com>
@@ -49,9 +49,9 @@ Maintainer: 2Klasic <2Klasic@outlook.com>
 Depends: firmware(>= 5.0), mobilesubstrate
 Filename: ./debs/com.2klasic.flex_1.05_iphoneos-arm.deb
 Size: 413330
-MD5sum: c7604799edf6433da3ed069a0cb0feba
-SHA1: 9bb0c1ce16b43aa1bb5276a26e2615f02351fccb
-SHA256: fa113da5c2893c6c0a5e17d4d463b48cd002ebd8b6b10166680e19d0e18ddc6e
+MD5sum: 9562e0b4e08ee3c8a7f43ef144e2955f
+SHA1: 39ddbbb2428174a0973fbf7d55f6a5fa240839bf
+SHA256: d65745cfd5670ce6c15b73229efbec35a2023577afdb71872211742ecac1bf06
 Section: Tweak
 Description: Make your own tweaks, easily!
 Author: 2Klasic <2Klasic@outlook.com>
@@ -66,9 +66,9 @@ Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
 Size: 142378
-MD5sum: 1a8b49f74e6ad8b9e55d730aab86921e
-SHA1: 1826c76cb6ac463f15d138bcdf17733bda2d85b1
-SHA256: 704fc7cb6b2d78031d54c3cb3c8d18942e61b571ffbe7721a61dce228e4b9d9d
+MD5sum: 3a398185e320c524bb39c99d6bf1dae5
+SHA1: 418184a78325169c17fe28ef49c06eb313cefc7b
+SHA256: c45e3c1b6ee5101a4c32b8412b2b4f7a335bb288167349b2f85d68e6b87479be
 Section: Tweaks
 Description: bypass anti-jailbreak protection on some of your favorite apps.
 Author: 2Klasic <2Klasic@outlook.com>
@@ -81,9 +81,9 @@ Architecture: iphoneos-arm
 Maintainer: iCapture Team <icaptureteam@icloud.com>
 Filename: ./debs/com.aerialx.ishshit_1.2.1_iphoneos-arm.deb
 Size: 11949846
-MD5sum: 5d2ab5a9e2db01d16ae14a34bd694bd5
-SHA1: d0bdde70a443a76f5b67c93842a1fb3e3e2be9bf
-SHA256: 21ed1cd2dc97905f633e3adc7be451988f61a57960e2d2825b577bae0a71fb2f
+MD5sum: 9cd6e3347dd80572613e3ebf105b7c4c
+SHA1: 456731cbfb89a8eeddcb6b5cb6295a66c6c557e9
+SHA256: 64b05cdeb84baab942721f40aa6c718248b7b5aac5030c305070a5f9034b93f2
 Section: Utilities
 Description: Capture10 The Multi Screen Record Built With Perfection.
 Author: iCapture Team <icaptureteam@icloud.com>
@@ -96,9 +96,9 @@ Maintainer: Julio
 Depends: mobilesubstrate
 Filename: ./debs/com.julioverne.extendlife_0.4_iphoneos-arm.deb
 Size: 68406
-MD5sum: 1e288c545de5b859fce6edabd432576e
-SHA1: e93201789ef9830e3a81cf8fedd05e8d8e7808bb
-SHA256: 69f8c63635b4237e7f4f74f618c4e4627df1a435973bcbd5623664fb0b1de5ad
+MD5sum: 2bee4c47626cd3f65a67bbf2abfb952d
+SHA1: 73b69ccb2746438453a5d341b74e2649c567edf0
+SHA256: 6da9bf1fd2dde9cc7561e2820439db6f85350f91685db3dcbe5bea3dea3701f7
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Extender Install IPA Files Imported Inside App, Spoof TeamID, Auto Login, Revoke Certificates, Add New Device, Allow OTA Install. Requires Cydia Extender App & AppSync
@@ -112,9 +112,9 @@ Maintainer: Julio
 Depends: mobilesubstrate
 Filename: ./debs/com.julioverne.pandolife_0.6-0_iphoneos-arm.deb
 Size: 79830
-MD5sum: 3538cc357cda4458e38b9e5f09ebd7b9
-SHA1: 0eecba49b858e3eaa5e4370738659d4a3d0295a5
-SHA256: 12e553f91b187cb77f24aa933a7c67f4ab0e853196c48e5e6e2e745a5cd3c0e3
+MD5sum: 62d972bc95fdb529c796b8e0eab2a7ec
+SHA1: 55e47f49d66c440226885ed64f4bbfd75d1fe3c6
+SHA256: fc9418d0f29f9e553c3f0d461a0a312d8f8462ba247786940202012d9794942a
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Pandora No ADs, Unrestrict Country, Downloads, High Quality Stream, Unlimited Skips, No delay Button Skip, No 180 minutes timeout... Requires Pandora App (AppStore)
@@ -128,9 +128,9 @@ Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=10.0), zip, unzip, dpkg, debianutils, apt, apt7-key, apt7, apt7-lib, coreutils
 Filename: ./debs/net.if0x.cybackup10_0.0.2_iphoneos-arm.deb
 Size: 9358
-MD5sum: 4ec89f47347f013011cd9a076228bfc8
-SHA1: 0e4930f024728ac2e05db577a4f090d219f0c3ee
-SHA256: 64a55f52966a773f6a1bc3fa5f35383b0a9a323a693af7af9f7c82c8d6b3bbc4
+MD5sum: a1a3b270c28b16f88e00e99649a653e1
+SHA1: d21a3b3854094456ddd5bdf08bc8ee72c79948cc
+SHA256: e8d9ba0ae7d412e44b4c05a375be07c7189ae57f037cafb3f48922e548973ea1
 Section: Tweaks
 Description: This version is currently UNTESTED. Backup installed tweaks (atm only main repos) as .debs and make a .zip Backup folder in /. To start type cybkp in MTerminal. Thanks to /u/elsatour for the idea and help. For support follow me on twitter (@if0xxx)
 Author: @if0xxx <if0x2080@gmail.com>
@@ -143,9 +143,9 @@ Maintainer: songzhiming
 Depends: firmware (>= 7.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Filename: ./debs/zm.iapcrazy_1.6.0_iphoneos-arm.deb
 Size: 9733776
-MD5sum: 64f6acdf9a78116f3d9f751bc785cd4d
-SHA1: 4ec816827eea7615e21be5ac2d64a831f384547e
-SHA256: 6e8c060fbcb3b56835abba7a901b513922f44b37868ce16b972936db237cf13c
+MD5sum: 1c9ca60d4e0e328253d470e5ec9702e2
+SHA1: 73409bbb0d783d856472fd4dcf1403ac9c2ca001
+SHA256: 31484d4d23eed4a532e3f8338408b5fec21342ba65621a6184b95b686b4d105a
 Section: Tweaks
 Homepage: www.youyuanapp.com
 Description: IAPCrazy 内购神器--1.6.0 for ios7.0~9.3.x
