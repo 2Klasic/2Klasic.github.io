@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+
+<plist version="1.0">
+<dict>
+	<key>BuildIdentities</key>
+	<array>
+		<dict>
+			<key>ApBoardID</key>
+			<string>0x08</string>
+			<key>ApChipID</key>
+			<string>0x8930</string>
+			<key>ApSecurityDomain</key>
+			<string>0x01</string>
+			<key>Info</key>
+			<dict>
+				<key>BuildNumber</key>
+				<string>9A5220p</string>
+				<key>BuildTrain</key>
+				<string>TellurideVail</string>
+				<key>DeviceClass</key>
+				<string>n81ap</string>
+				<key>RestoreBehavior</key>
+				<string>Erase</string>
+				<key>Variant</key>
+				<string>Developer Erase Install (IPSW)</string>
+				<key>VariantContents</key>
+				<dict>
+					<key>DFU</key>
+					<string>Production</string>
+					<key>Firmware</key>
+					<string>Production</string>
+					<key>InstalledKernelCache</key>
+					<string>Release</string>
+					<key>RestoreKernelCache</key>
+					<string>Release</string>
+					<key>RestoreRamDisk</key>
+					<string>CustomerRamDisk</string>
+					<key>SystemImage</key>
+					<string>DeveloperOS</string>
+				</dict>
+			</dict>
+			<key>Manifest</key>
+			<dict>
+				<key>AppleLogo</key>
+				<dict>
+					<key>Digest</key>
+					<data>mR/I3putwdcPV38rvAIwJrtfN3I=</data>
+					<key>Info</key>
+					<dict>
+						<key>IsFirmwarePayload</key>
+						<true />
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/applelogo-640x960.s5l8930x.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAAPgyAABD1G4aDiIZRC5uDAv1sUTG4SpBXw==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>BatteryCharging</key>
+				<dict>
+					<key>Digest</key>
+					<data>woSUHOuxD5EEBHYGMdtKxlU13ow=</data>
+					<key>Info</key>
+					<dict>
+						<key>IsFirmwarePayload</key>
+						<true />
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/glyphcharging-640x960.s5l8930x.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAAHgUAABSt8iCpjz/sZR24V/umlRaBQgI9A==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>BatteryCharging0</key>
+				<dict>
+					<key>Digest</key>
+					<data>CdMBhVo4xCAK9rtRXN8qRX69wSM=</data>
+					<key>Info</key>
+					<dict>
+						<key>IsFirmwarePayload</key>
+						<true />
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/batterycharging0-640x960.s5l8930x.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAAPglAABl9ipVXRCT+ENII964b9U5U7C9tg==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>BatteryCharging1</key>
+				<dict>
+					<key>Digest</key>
+					<data>s1qKYAotnt46qNB9Svn+eNIcwvM=</data>
+					<key>Info</key>
+					<dict>
+						<key>IsFirmwarePayload</key>
+						<true />
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/batterycharging1-640x960.s5l8930x.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAALiIAABWt24HxqdiycC7dGPrh6RVMv05DA==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>BatteryFull</key>
+				<dict>
+					<key>Digest</key>
+					<data>u8VypGnaGEmfHwhf2QMZ+192RjA=</data>
+					<key>Info</key>
+					<dict>
+						<key>IsFirmwarePayload</key>
+						<true />
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/batteryfull-640x960.s5l8930x.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAAHjzCQAsVHP5OJOSziiwQz0wdgGXpPZWHQ==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>BatteryLow0</key>
+				<dict>
+					<key>Digest</key>
+					<data>kKmqio0/kcjZ2Y/5Lj+p/Y7TPAs=</data>
+					<key>Info</key>
+					<dict>
+						<key>IsFirmwarePayload</key>
+						<true />
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/batterylow0-640x960.s5l8930x.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAAHiSAgAItQTViYqVshpkznC5HGKceS7A9g==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>BatteryLow1</key>
+				<dict>
+					<key>Digest</key>
+					<data>UVLqZy2G5hFsfqiVmbI5KNuftI8=</data>
+					<key>Info</key>
+					<dict>
+						<key>IsFirmwarePayload</key>
+						<true />
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/batterylow1-640x960.s5l8930x.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAADiTAABTpF7aLRZeGRH7umoMPACo9DovFA==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>BatteryPlugin</key>
+				<dict>
+					<key>Digest</key>
+					<data>1IjQlW1Xc09LTW8vfAQJ1fKIGhQ=</data>
+					<key>Info</key>
+					<dict>
+						<key>IsFirmwarePayload</key>
+						<true />
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/glyphplugin-640x960.s5l8930x.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAADgTAAAwvSW42wzNwKP+AGFo/Th+p2NmHQ==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>DeviceTree</key>
+				<dict>
+					<key>Digest</key>
+					<data>wWHs6m2FMJkaRVF0efACvEyneQQ=</data>
+					<key>Info</key>
+					<dict>
+						<key>IsFirmwarePayload</key>
+						<true />
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/DeviceTree.n81ap.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAAPjFAAD/2Wt5G3VA6kg0W8QWOcjZE1c3LQ==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>KernelCache</key>
+				<dict>
+					<key>Digest</key>
+					<data>KK3jyO915ExJ15ghZa8euVNnPTw=</data>
+					<key>Info</key>
+					<dict>
+						<key>Path</key>
+						<string>kernelcache.release.n81</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAAHhOXQCMYh4wSPHER1tZfp9zRSuC4HTDIA==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>LLB</key>
+				<dict>
+					<key>BuildString</key>
+					<string>iBoot-1219.35.80~1</string>
+					<key>Digest</key>
+					<data>AHCggVZsCfDfH01KB50rP4KPK8M=</data>
+					<key>Info</key>
+					<dict>
+						<key>IsFirmwarePayload</key>
+						<true />
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/LLB.n81ap.RELEASE.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAALixAQDMeJ/qjfQ5O+8zknIHZcEKbw49qQ==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>OS</key>
+				<dict>
+					<key>Info</key>
+					<dict>
+						<key>Path</key>
+						<string>038-1667-026.dmg</string>
+					</dict>
+				</dict>
+				<key>RecoveryMode</key>
+				<dict>
+					<key>Digest</key>
+					<data>wTqvGubIeO0QIQLlRGTx5Qxano8=</data>
+					<key>Info</key>
+					<dict>
+						<key>IsFirmwarePayload</key>
+						<true />
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/recoverymode-640x960.s5l8930x.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAAHjyAQAV9JDuzskzeXvM3UUrAp8Aly0CcQ==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>RestoreDeviceTree</key>
+				<dict>
+					<key>Digest</key>
+					<data>wWHs6m2FMJkaRVF0efACvEyneQQ=</data>
+					<key>Info</key>
+					<dict>
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/DeviceTree.n81ap.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAAPjFAAD/2Wt5G3VA6kg0W8QWOcjZE1c3LQ==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>RestoreKernelCache</key>
+				<dict>
+					<key>Digest</key>
+					<data>KK3jyO915ExJ15ghZa8euVNnPTw=</data>
+					<key>Info</key>
+					<dict>
+						<key>Path</key>
+						<string>kernelcache.release.n81</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAAHhOXQCMYh4wSPHER1tZfp9zRSuC4HTDIA==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>RestoreLogo</key>
+				<dict>
+					<key>Digest</key>
+					<data>mR/I3putwdcPV38rvAIwJrtfN3I=</data>
+					<key>Info</key>
+					<dict>
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/applelogo-640x960.s5l8930x.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAAPgyAABD1G4aDiIZRC5uDAv1sUTG4SpBXw==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>RestoreRamDisk</key>
+				<dict>
+					<key>Digest</key>
+					<data>IMQp0GJKmGvqTvmy5USnKcGfDYU=</data>
+					<key>Info</key>
+					<dict>
+						<key>Path</key>
+						<string>038-1678-023.dmg</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAAPjAfAH8U3iWX/fzsOoDWcLlTC3Gy5t4Kg==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>iBEC</key>
+				<dict>
+					<key>BuildString</key>
+					<string>iBoot-1219.35.80~1</string>
+					<key>Digest</key>
+					<data>gtFVxVOwGJj9QwobiolN/5WYdQo=</data>
+					<key>Info</key>
+					<dict>
+						<key>Path</key>
+						<string>Firmware/dfu/iBEC.n81ap.RELEASE.dfu</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAALiBAwBxLn4g49sT62ES2Jc+gmUTNOZkdg==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>iBSS</key>
+				<dict>
+					<key>BuildString</key>
+					<string>iBoot-1219.35.80~1</string>
+					<key>Digest</key>
+					<data>B4wO47h9lN7vW9bys3WIvILAi2A=</data>
+					<key>Info</key>
+					<dict>
+						<key>Path</key>
+						<string>Firmware/dfu/iBSS.n81ap.RELEASE.dfu</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAALjhAAAsCMMDy9gDYW6HzOcTDb2EoxM0oA==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+				<key>iBoot</key>
+				<dict>
+					<key>Digest</key>
+					<data>+yBBLa1jx08p0/6CyNFwa+OCZZs=</data>
+					<key>Info</key>
+					<dict>
+						<key>IsFirmwarePayload</key>
+						<true />
+						<key>Path</key>
+						<string>Firmware/all_flash/all_flash.n81ap.production/iBoot.n81ap.RELEASE.img3</string>
+					</dict>
+					<key>PartialDigest</key>
+					<data>QAAAALiBAwCN7jXC+4HAhM+OBu7B4aT7Tv+97w==</data>
+					<key>Trusted</key>
+					<true />
+				</dict>
+			</dict>
+			<key>UniqueBuildID</key>
+			<data>owYCqrR4NxT0iueN4OQFGzI4Wy4=</data>
+		</dict>
+	</array>
+	<key>ManifestVersion</key>
+	<integer>0</integer>
+	<key>ProductBuildVersion</key>
+	<string>9A5220p</string>
+	<key>ProductVersion</key>
+	<string>5.0</string>
+	<key>SupportedProductTypeIDs</key>
+	<dict>
+		<key>DFU</key>
+		<array>
+			<integer>134252848</integer>
+		</array>
+		<key>Recovery</key>
+		<array>
+			<integer>134252848</integer>
+		</array>
+	</dict>
+	<key>SupportedProductTypes</key>
+	<array>
+		<string>iPod4,1</string>
+	</array>
+</dict>
+</plist>
