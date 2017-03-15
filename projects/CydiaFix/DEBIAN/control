@@ -1,6 +1,6 @@
 Package: com.2Klasic.Fix
 Name: CydiaFix
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
 Description: This version is designed to resolve comman issues with cydia. To run this package install mterminal and type apt
 Maintainer: @2klasic <2klasic@icloud.com>
