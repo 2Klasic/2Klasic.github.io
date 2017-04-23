@@ -12,5 +12,5 @@ dpkg-deb -bZgzip projects/AeroTV_1.0b8 debs
 dpkg-deb -bZgzip projects/iCapture10 debs
 dpkg-deb -bZgzip projects/Pandolife debs
 dpkg-deb -bZgzip projects/extendlife debs
-dpkg-deb -bZgzip projects/CyBackup 10 debs
+dpkg-deb -bZgzip projects/CyBackup_0.6 debs
 dpkg-deb -b Package3
