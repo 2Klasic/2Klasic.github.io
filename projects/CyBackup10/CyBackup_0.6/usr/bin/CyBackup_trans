@@ -1,0 +1,83 @@
+#!/bin/sh
+
+#  CyBackup_trans.sh
+#
+exitpoint () {
+if [ "$rex" = "exit" ]
+then exit
+elif [ "$rex" = "restart" ]
+then su root CyBackup_trans
+fi
+}
+echo "---------------CyBackup need the IP of your PC---------------"
+echo "---------please insert your IP or type help for help---------"
+read ip
+rex="$ip"
+exitpoint
+echo "Windows users please copy the file manually"
+sleep 2s
+echo "Windows don't support SSH by default"
+sleep 2s
+if [ "$ip" = "help" ]
+    then    echo " "
+            echo "----------------Find your IP----------------"
+            echo "What operating system runs on your PC?"
+            echo "MacOS [1]"
+            echo "Linux [2]"
+            echo "Windows [3]"
+            read opsys
+            rex="$opsys"
+            exitpoint
+            if [ "$opsys" = "1" ]
+                then
+                    echo "please go to settings -> Network -> Wifi"
+                    echo "hit return to restart"
+                    read restart
+                    exitpoint
+                    su root CyBackup_trans
+
+            elif [ "$opsys" = "2" ]
+                then
+                    echo "please type in terminal: /sbin/ifconfig | grep 'inet addr:' "
+                    echo "hit return to restart"
+                    read restart
+                    exitpoint
+                    su root CyBackup_trans
+
+            elif [ "$opsys" = "3" ]
+                then
+                    echo "sorry no practical way at the moment for you"
+                    echo "you can find the zip in / "
+                    sleep 2s
+                    echo "----------------done----------------"
+            else
+                echo "wrong character"
+                echo "restarting"
+                echo "                  .                  "
+                sleep 1s
+                echo "                  .                  "
+                sleep 1s
+                echo "                  .                  "
+                su root CyBackup_trans
+            fi
+else
+    echo " "
+    echo "please insert your PC username"
+    read user
+    rex="$user"
+    exitpoint
+#echo "For easy use please insert your SSH/Admin Password of your PC"
+#read passwd
+    echo "creating directory"
+    echo "please insert your pc user password for SSH"
+    ssh "$user"@"$ip" mkdir -p /Applications/CyBackup
+    mkdir -p /CyBackup/Backups
+    scp -r /CyBackup_*.zip /CyBackup/Backups
+    echo "copying Backup"
+    echo "please insert your pc user password for SSH"
+    scp -r /CyBackup/Backups/CyBackup_*.zip "$user"@"$ip":/Applications/CyBackup
+    echo "----------------Done----------------"
+fi
+#
+#  Created by @if0xxx on 20.08.16.
+#
