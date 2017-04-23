@@ -1,0 +1,96 @@
+#!/bin/sh
+
+#  CyBackup_retrans.sh
+#
+exitpoint () {
+if [ "$rex" = "exit" ]
+then exit
+elif [ "$rex" = "restart" ]
+then su root CyBackup_retrans
+fi
+}
+echo "--------------CyBackup need the IP of your PC--------------"
+echo "--------please insert your IP or type help for help--------"
+read ip
+rex="$ip"
+exitpoint
+echo "Windows users please copy the file manually"
+sleep 2s
+echo "Windows don't support SSH by default"
+sleep 2s
+if [ "$ip" = "help" ]
+    then    echo " "
+            echo "----------------Find your IP----------------"
+            echo "What operating system runs on your PC?"
+            echo "MacOS [1]"
+            echo "Linux [2]"
+            echo "Windows [3]"
+            read opsys
+            rex="$opsys"
+            exitpoint
+            if [ "$opsys" = "1" ]
+                then
+                    echo "please go to settings -> Network -> Wifi"
+                    echo "hit return to restart"
+                    read restart
+                    exitpoint
+                    su root CyBackup_retrans
+
+            elif [ "$opsys" = "2" ]
+                then
+                    echo "please type in terminal: /sbin/ifconfig | grep 'inet addr:' "
+                    echo "hit return to restart"
+                    read restart
+                    exitpoint
+                    su root CyBackup_retrans
+
+            elif [ "$opsys" = "3" ]
+                then
+                    echo "sorry no practical way at the moment for you"
+                    echo "you've to copy it manually to / "
+                    sleep 2s
+                    echo "----------------done----------------"
+            else
+                echo "wrong charakter"
+                echo "restarting"
+                echo "                  .                  "
+                sleep 1s
+                echo "                  .                  "
+                sleep 1s
+                echo "                  .                  "
+                su root CyBackup_retrans
+            fi
+else
+    echo " "
+    echo "please insert your PC username"
+    read user
+    rex="$user"
+    exitpoint
+    echo "----------------Listing Backups----------------"
+    echo "please insert your PC password for SSH"
+    ssh "$user"@"$ip" ls /Applications/CyBackup
+    echo "which Backup you want to use?"
+    echo "please insert date in yyyy-mm-dd (dont forget the '-') "
+    read date
+    rex="$date"
+    exitpoint
+    echo "----------------copy Backup----------------"
+    echo "please insert your PC password for SSH"
+    scp -r "$user"@"$ip":/Applications/CyBackup/CyBackup*_"$date".zip /
+    echo "----------------done----------------"
+    echo "Now restore from Backup? [y/n]"
+    read a
+    rex="$a"
+    exitpoint
+    if [ "$a" = "y" ]
+        then su root CyBackup_restore
+    elif [ "$a" = "n" ]
+        then echo "---------------done---------------"
+    else
+        echo "error wrong charakter"
+        echo "---------------done---------------"
+    fi
+fi
+#
+#  Created by @if0xxx on 20.08.16.
+#
