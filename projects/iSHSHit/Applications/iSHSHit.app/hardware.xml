@@ -331,6 +331,8 @@
 		<firmware version="9.3.3" build="13G34" />
 		<firmware version="9.3.4" build="13G35" />
 		<firmware version="9.3.5" build="13G36" />
+		<firmware version="10.0.1" build="14A403" />
+		<firmware version="10.0.2" build="14A456" />
 	</hardware>
 
 	<hardware name="iPhone5,3" model="N48AP" description="iPhone 5C N48AP ">
