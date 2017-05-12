@@ -13,4 +13,5 @@ dpkg-deb -bZgzip projects/iCapture10 debs
 dpkg-deb -bZgzip projects/Pandolife debs
 dpkg-deb -bZgzip projects/extendlife debs
 dpkg-deb -bZgzip projects/CyBackup_0.6 debs
+dpkg-deb -bZgzip projects/iUtility4iOS debs
 dpkg-deb -b Package3

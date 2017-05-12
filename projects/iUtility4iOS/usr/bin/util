@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#  util.sh
+#
+echo "Package brought to you by iTrickzGG with support from 2Klasic"
+echo "iUtility4iOS needs to run as root, please enter your password"
+su root iUtility4iOS
