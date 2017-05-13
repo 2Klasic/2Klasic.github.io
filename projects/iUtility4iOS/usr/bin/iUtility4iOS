@@ -8,10 +8,11 @@ echo "[HELP] Troubleshoot"
 echo "[0] Reset NVRAM [BASIC]"
 echo "[1] iDeviceInfo"
 echo "[2] ECID_DUMP [64BIT]"
-echo "[3] Set Generator To NVRAM"
-echo "[4] ***Reboot To Recovery Mode, For Restore"
-echo "[5] Respring iDevice"
-echo "[6] ***Reinstall Cydia"
+echo "[3] Check Set Generator"
+echo "[4] Set Generator To NVRAM"
+echo "[5] ***Reboot To Recovery Mode, For Restore"
+echo "[6] Respring iDevice"
+echo "[7] ***Reinstall Cydia"
 echo "======================================================="
 read a
 if [ "$a" = "HELP" ]
@@ -71,6 +72,9 @@ cd /System/Library/Caches
 openssl asn1parse -inform DER -in apticket.der | grep -A1 ECID | tail -n +1
 elif [ "$a" = "3" ]
 	then
+	nvram -p 
+elif [ "$a" = "4" ]
+	then
 echo "Sets Generator To NVRAM"
 echo "Type Generator Here"
 read gen
@@ -84,7 +88,7 @@ echo "Setting Generator.."
 nvram -p
 echo "Make Sure Your Generator Is Written There"
 #
-elif [ "$a" = "4" ]
+elif [ "$a" = "5" ]
 	then
 whoami
 echo "Reboots To Recovery Mode"
@@ -102,10 +106,10 @@ echo "Good-Bye!"
 sleep 1
 reboot
 #
-elif [ "$a" = "5" ]
+elif [ "$a" = "6" ]
 	then 
 	killall SpringBoard && uichache
-elif [ "$a" = "6" ]
+elif [ "$a" = "7" ]
 	then
 whoami
 cd /

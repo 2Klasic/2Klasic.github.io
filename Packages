@@ -5,9 +5,9 @@ Maintainer: @2Klasic <2Klasic@icloud.com>
 Depends: firmware (>=9.0)
 Filename: ./debs/com.2klasic.aerotv_1.0b8_iphoneos-arm.deb
 Size: 23758030
-MD5sum: 5ae1c77c8e5a738fefe027ed385d2391
-SHA1: 59a5afab53be6937037c311a717dc6956361e4e9
-SHA256: 85cd82e1187de36b42521c4f664111dfa9377139d60702eac4cc141971e070f7
+MD5sum: f0885449214681d5641f48c4760842f9
+SHA1: 4aee2dd1b5bfad3488da6ceae2c5d6cb3024f05a
+SHA256: 006a16cc9582d6e5c2f37faf6709cc89e9128e3ec0fb3c214f83fce616a47ff3
 Section: Entertainment
 Description: Broadcast Network TV
 Author: @AeroTV <2Klasic@icloud.com>
@@ -19,9 +19,9 @@ Architecture: iphoneos-arm
 Maintainer: @2Klasic <2Klasic@icloud.com>
 Filename: ./debs/com.2klasic.bobbymovie_3.0.4_iphoneos-arm.deb
 Size: 9689536
-MD5sum: e1482ca7e2daa20ea3cb4fdc9e1063a2
-SHA1: fba2d664e5791a3fbb85430be4925555dab7851d
-SHA256: 2843bddc7fb837c4a814992c118121cd44e7670bfa95db6be6b07318f888e068
+MD5sum: c1afd7870313e68bdd4c740bc115ac0a
+SHA1: 6fbecb176ef05972bc3b02ddacf0b442f92a175e
+SHA256: 2e319b61a81d044cd6bbee53ad0c8622b4c77664105289d2bb6e1a50bec44cf2
 Section: Entertainment
 Description: Enjoy your favorite movies on the go. To keep this site thriving strong ensure you use a VPN
 Author: @Bobby Movie Team <2Klasic@icloud.com>
@@ -33,9 +33,9 @@ Architecture: iphoneos-arm
 Maintainer: iCapture Team <icaptureteam@icloud.com>
 Filename: ./debs/com.2klasic.icapture10_1.2.1_iphoneos-arm.deb
 Size: 11950446
-MD5sum: b95bc91381a7055b72b5c8ff23138b7c
-SHA1: 059461caf35297a0596c90cbd22fe48c06401b5e
-SHA256: 7c01c822b3a63c38a9af817f51fbad55f8c8b9485992bec5c96b8bd97a28cc40
+MD5sum: d9bad79948c696a0e503b507dfebc5a0
+SHA1: a3100fe438cc395ac7206c1143642a51a7cb85c4
+SHA256: 077b6526296f36424e3f676d2e75ce5c9962960bd023bf8529e9c9616cee88d7
 Section: Utilities
 Description: Capture10 The Multi Screen Record Built With Perfection.
 Author: iCapture Team <icaptureteam@icloud.com>
@@ -50,9 +50,9 @@ Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
 Size: 142414
-MD5sum: e1a99dd5d5a26ff434c711bb734ee1da
-SHA1: 32c5a1eede08626a5cde912dfbbd4959b75ed2f2
-SHA256: d992059f7a928515cb6dc560615dd340ec7e9ee10ea39ebd718c6dbeb8f3c83d
+MD5sum: 409d51c930f5623464aaff40544c5a87
+SHA1: 9ddf4d0baaeb62e87b813f1e386b29b6d17f4dff
+SHA256: 9b767d20354ed1e5c418ecac56160fddc43df9fa28adc2ea826f1d7cabbfeada
 Section: Tweaks
 Description: bypass anti-jailbreak protection on some of your favorite apps.
 Author: n00neimp0rtant <2Klasic@outlook.com>
@@ -65,10 +65,10 @@ Architecture: iphoneos-arm
 Maintainer: 2Klasic <derobi@icloud.com>
 Installed-Size: 5819
 Filename: ./debs/com.aerialx.ishshit_1.2.1b_iphoneos-arm.deb
-Size: 3419196
-MD5sum: c163edab753d167e1b42f424fde50835
-SHA1: bfbf3062ecde186324f66e0a3c2a2057cbdc2d4b
-SHA256: f31c42649f276e81d29f419bfc8f821dbbf20bd3a8f2b99af8457675a740bcef
+Size: 3419186
+MD5sum: 9c854debf6668e92745c0abd13310fc8
+SHA1: d4e778c2bc040ba938e5c9ccb878b3aefa1cf9c1
+SHA256: 5fd1aa1d90a36a052b8672f9d63166f3c75c81cb09e37901604b710045c53060
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”! This is only for 32bit devices currently.
@@ -79,17 +79,17 @@ Icon: file:///Applications/iSHSHit.app/Icon.png
 Name: iSHSHit
 
 Package: com.iTrickz.iUtility4iOS
-Version: 2.3.2
+Version: 2.3.3
 Architecture: iphoneos-arm
 Maintainer: @2Klasic <derobi@icloud.com>
 Depends: openssl, debianutils, coreutils
-Filename: ./debs/com.itrickz.iutility4ios_2.3.2_iphoneos-arm.deb
-Size: 2132
-MD5sum: e161afb4b4e5aba789f3352c21bc06c0
-SHA1: d9b0d7e1400597f5c310efe488ff6ad38be77893
-SHA256: e3dd9a33729b5b66a7797b210222ea12706fdfc0b0906d504f9f81e9c0f171ee
+Filename: ./debs/com.itrickz.iutility4ios_2.3.3_iphoneos-arm.deb
+Size: 2154
+MD5sum: 33c1376eb81e6fb2d56bb337ebda5fd9
+SHA1: 2498c17784033e106a46f621b868851c867d7883
+SHA256: 4be19696e3c09b48dea67ac2ce446d94c32a2a27a9fdbf19b1c75f36a5b470aa
 Section: Tweaks
-Description: iOS Utility Script to use this package open your favorite mobile terminal and type util to start to use this package. Please submit and issues or feature requests to 2Klasic on twitter or iTrickzGG on twitter.
+Description: iOS Utility Script to use this package open your favorite mobile terminal and type 'util' to start to use this package. Please submit and issues or feature requests to 2Klasic on twitter or iTrickzGG on twitter.
 Author: @iTrickzGG <itrickz101@gmail.com>
 Name: iUtility4iOS
 
@@ -100,9 +100,9 @@ Maintainer: Julio
 Depends: mobilesubstrate
 Filename: ./debs/com.julioverne.pandolife_0.6-0_iphoneos-arm.deb
 Size: 79838
-MD5sum: 89a4a2b3afcaa1268b179fa343bec04a
-SHA1: d32c17c2eb45b3f28d991291e1a15c89692a8ea9
-SHA256: 61830153f219aeee61d687d4227f971df8d4efda08b867b30d16b1fd2b7986b6
+MD5sum: 55388447ebcdc97c4f3896516b9b4866
+SHA1: 0eb2eafa4cd141a3c4a1beaf4e01325e317a2ba7
+SHA256: b4d0c287cf340277be04bf43a0abbe32bffc8519ce37141069d840a30a194e62
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Pandora No ADs, Unrestrict Country, Downloads, High Quality Stream, Unlimited Skips, No delay Button Skip, No 180 minutes timeout... Requires Pandora App (AppStore)
@@ -116,9 +116,9 @@ Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=10.0), zip, unzip, dpkg, debianutils, apt, apt7-key, apt7, apt7-lib, coreutils
 Filename: ./debs/net.if0x.cybackup10_0.0.6_iphoneos-arm.deb
 Size: 9430
-MD5sum: 304ed6afe5c4fd4c03e9e65c3b8c7eab
-SHA1: 27a7e62406e7cf8a9988875f7f1665f2bca1a459
-SHA256: 09669885d24cd38a6618dfe29f0f7d450d3759993bb9488af082e73e878a2a59
+MD5sum: aa63f0124ddfa49cbc00f29e9e0983c7
+SHA1: 6b17faf5d44e50170e24440b5782b9d6c0d037e3
+SHA256: 2a1b9d66d7fe2c82f60ad88a62b1b3548c06ae450260518789840bb3cfa4e986
 Section: Tweaks
 Description: This version is currently UNTESTED. Backup installed tweaks (atm only main repos) as .debs and make a .zip Backup folder in /. To start type cybkp in MTerminal. Thanks to /u/elsatour for the idea and help. For support follow me on twitter (@if0xxx)
 Author: @if0xxx <if0x2080@gmail.com>
