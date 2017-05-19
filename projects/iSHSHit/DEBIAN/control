@@ -1,13 +1,13 @@
 Package: com.aerialx.ishshit
 Name: iSHSHit
-Version: 1.2.3b
+Version: 1.2.4b
 Architecture: iphoneos-arm
 Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”! This is only for 32bit devices currently.
 Maintainer: 2Klasic <derobi@icloud.com>
 Author: Aaron Lindsay <aaron@aaronlindsay.com>
 Section: Utilities
-Installed-Size: 5819
 Icon: file:///Applications/iSHSHit.app/Icon.png
 dev: aerialx
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
+

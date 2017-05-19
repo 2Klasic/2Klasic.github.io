@@ -291,7 +291,7 @@
 		<firmware version="9.3.4" build="13G35" />
 	</hardware>
 
-	<hardware name="iPhone5,2" model="N42AP" description="iPhone 5 Global">
+	<hardware name="iPhone5,2" model="N42AP" description="iPhone 5 Global ">
 		<firmware version="6.0" build="10A405" />
 		<firmware version="6.0.1" build="10A525" />
 		<firmware version="6.0.2" build="10A551" />
