@@ -5,7 +5,6 @@ Architecture: iphoneos-arm
 Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”! This is only for 32bit devices currently.
 Maintainer: 2Klasic <derobi@icloud.com>
 Author: Aaron Lindsay <aaron@aaronlindsay.com>
-Depends: substrate
 Section: Utilities
 Icon: file:///Applications/iSHSHit.app/Icon.png
 dev: aerialx
