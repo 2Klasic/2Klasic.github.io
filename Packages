@@ -3,7 +3,7 @@ Version: 1.0b8
 Architecture: iphoneos-arm
 Maintainer: @2Klasic <2Klasic@icloud.com>
 Depends: firmware (>=9.0)
-Filename: ./debs/com.2klasic.aerotv_1.0b8_iphoneos-arm.deb
+Filename: ./debs/com.2klasic.aerotv_1.0b8_iphoneos-arm (1).deb
 Size: 23758030
 MD5sum: f0885449214681d5641f48c4760842f9
 SHA1: 4aee2dd1b5bfad3488da6ceae2c5d6cb3024f05a
@@ -17,7 +17,7 @@ Package: com.2Klasic.BobbyMovie
 Version: 3.0.4
 Architecture: iphoneos-arm
 Maintainer: @2Klasic <2Klasic@icloud.com>
-Filename: ./debs/com.2klasic.bobbymovie_3.0.4_iphoneos-arm.deb
+Filename: ./debs/com.2klasic.bobbymovie_3.0.4_iphoneos-arm (1).deb
 Size: 9689536
 MD5sum: c1afd7870313e68bdd4c740bc115ac0a
 SHA1: 6fbecb176ef05972bc3b02ddacf0b442f92a175e
@@ -31,7 +31,7 @@ Package: com.2Klasic.iCapture10
 Version: 1.2.1
 Architecture: iphoneos-arm
 Maintainer: iCapture Team <icaptureteam@icloud.com>
-Filename: ./debs/com.2klasic.icapture10_1.2.1_iphoneos-arm.deb
+Filename: ./debs/com.2klasic.icapture10_1.2.1_iphoneos-arm (1).deb
 Size: 11950446
 MD5sum: d9bad79948c696a0e503b507dfebc5a0
 SHA1: a3100fe438cc395ac7206c1143642a51a7cb85c4
@@ -49,10 +49,10 @@ Depends: mobilesubstrate
 Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
-Size: 142414
-MD5sum: 409d51c930f5623464aaff40544c5a87
-SHA1: 9ddf4d0baaeb62e87b813f1e386b29b6d17f4dff
-SHA256: 9b767d20354ed1e5c418ecac56160fddc43df9fa28adc2ea826f1d7cabbfeada
+Size: 142408
+MD5sum: f0e12a5c182bf6180cf6727ec3224359
+SHA1: 1fa22ec99ed0d127f5bc7973bf0ac84ea5fbc175
+SHA256: 9efb06bedccb69b73c97c54d44dc2a6eadfa9c71b263070a7c3bc81bfdb15efa
 Section: Tweaks
 Description: bypass anti-jailbreak protection on some of your favorite apps.
 Author: n00neimp0rtant <2Klasic@outlook.com>
@@ -65,10 +65,10 @@ Architecture: iphoneos-arm
 Maintainer: 2Klasic <derobi@icloud.com>
 Installed-Size: 5819
 Filename: ./debs/com.aerialx.ishshit_1.2.1b_iphoneos-arm.deb
-Size: 3419186
-MD5sum: 9c854debf6668e92745c0abd13310fc8
-SHA1: d4e778c2bc040ba938e5c9ccb878b3aefa1cf9c1
-SHA256: 5fd1aa1d90a36a052b8672f9d63166f3c75c81cb09e37901604b710045c53060
+Size: 3419180
+MD5sum: 733ae5dd778e50d7a1f4eec7337e0bf7
+SHA1: 9adef0497ddd49bd005cda2a5db319e80e2f658a
+SHA256: 4ac02db4ecf733f83599933b7584a51f0c2c97876f5ce4daca857dd8e2cc505d
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”! This is only for 32bit devices currently.
@@ -78,16 +78,30 @@ Dev: aerialx
 Icon: file:///Applications/iSHSHit.app/Icon.png
 Name: iSHSHit
 
+Package: com.iApeiron.Savethemblobs
+Version: 1.0b1
+Architecture: iphoneos-arm
+Maintainer: 2Klasic <derobi@icloud.com>
+Filename: ./debs/com.iapeiron.savethemblobs_1.0b1_iphoneos-arm.deb
+Size: 24625222
+MD5sum: 7bd7828d525dd8be9aa7a6a317f64be5
+SHA1: b6984e0bc9951f50536e18c23ce41069149d3eb0
+SHA256: d38b3c6fc832588aa91b3ec9dc25ff20133a600781cb1658706ab289fd89e44b
+Section: Utilities
+Description: Easily save/manage SHSH blobs from Apple and Cydia, This is currently a working beta.
+Author: iAperion <aperion@hotmail.ca>
+Name: Savethemblobs
+
 Package: com.iTrickz.iUtility4iOS
 Version: 2.3.3
 Architecture: iphoneos-arm
 Maintainer: @2Klasic <derobi@icloud.com>
 Depends: openssl, debianutils, coreutils
 Filename: ./debs/com.itrickz.iutility4ios_2.3.3_iphoneos-arm.deb
-Size: 2154
-MD5sum: 33c1376eb81e6fb2d56bb337ebda5fd9
-SHA1: 2498c17784033e106a46f621b868851c867d7883
-SHA256: 4be19696e3c09b48dea67ac2ce446d94c32a2a27a9fdbf19b1c75f36a5b470aa
+Size: 2164
+MD5sum: b904cce383004aeb6867443caa7434df
+SHA1: c0856a723d3ea1427fdb987be784fd17d6bf89b7
+SHA256: 3bfc07455d6d71116814c766125dc36e39b6c31836e2b4bc63267a0d7c46f3b1
 Section: Tweaks
 Description: iOS Utility Script to use this package open your favorite mobile terminal and type 'util' to start to use this package. Please submit and issues or feature requests to 2Klasic on twitter or iTrickzGG on twitter.
 Author: @iTrickzGG <itrickz101@gmail.com>
@@ -98,7 +112,7 @@ Version: 0.6-0
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: mobilesubstrate
-Filename: ./debs/com.julioverne.pandolife_0.6-0_iphoneos-arm.deb
+Filename: ./debs/com.julioverne.pandolife_0.6-0_iphoneos-arm (1).deb
 Size: 79838
 MD5sum: 55388447ebcdc97c4f3896516b9b4866
 SHA1: 0eb2eafa4cd141a3c4a1beaf4e01325e317a2ba7
@@ -115,10 +129,10 @@ Architecture: iphoneos-arm
 Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=10.0), zip, unzip, dpkg, debianutils, apt, apt7-key, apt7, apt7-lib, coreutils
 Filename: ./debs/net.if0x.cybackup10_0.0.6_iphoneos-arm.deb
-Size: 9430
-MD5sum: aa63f0124ddfa49cbc00f29e9e0983c7
-SHA1: 6b17faf5d44e50170e24440b5782b9d6c0d037e3
-SHA256: 2a1b9d66d7fe2c82f60ad88a62b1b3548c06ae450260518789840bb3cfa4e986
+Size: 9418
+MD5sum: 36b0af8cb2d0e6add47535221ff01df7
+SHA1: ee5aba4a1f146357547fe9d4239c1c3030916c2c
+SHA256: 97fa50169c876468e19d23cf2ac89b87cc23df67fec8b01d4661f5bbdeb9ed55
 Section: Tweaks
 Description: This version is currently UNTESTED. Backup installed tweaks (atm only main repos) as .debs and make a .zip Backup folder in /. To start type cybkp in MTerminal. Thanks to /u/elsatour for the idea and help. For support follow me on twitter (@if0xxx)
 Author: @if0xxx <if0x2080@gmail.com>
