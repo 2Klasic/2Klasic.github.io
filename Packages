@@ -5,9 +5,9 @@ Maintainer: @2Klasic <2Klasic@icloud.com>
 Depends: firmware (>=9.0)
 Filename: ./debs/com.2klasic.aerotv_1.0b8_iphoneos-arm.deb
 Size: 23758012
-MD5sum: 37d009a3ef0d25fe0a63d3b706fde0c1
-SHA1: af29234b4bd0c2caa3218b0ba4674d511aebe1f2
-SHA256: bfcb4a7d7814b6b2469af70798b5c95e87f80cb68aa53672ccb9da2b8dcad9c2
+MD5sum: 4e81e69947babf511b0c83f4c89318bc
+SHA1: 9765b0c3e63d589d3c53fda3181f074c0b603553
+SHA256: cf7294a9afeb411019ae3ee30c32792a70b22859e6e276c6b1a8f6276a3dec48
 Section: Entertainment
 Description: Broadcast Network TV
 Author: @AeroTV <2Klasic@icloud.com>
@@ -19,9 +19,9 @@ Architecture: iphoneos-arm
 Maintainer: @2Klasic <2Klasic@icloud.com>
 Filename: ./debs/com.2klasic.bobbymovie_3.0.4_iphoneos-arm.deb
 Size: 9689490
-MD5sum: 870bad55e19f79bec9c40b7948d63c2f
-SHA1: 7b874164c4c0b62dd0ed7ca5b7669f536d6129b5
-SHA256: 1ce971aba0d9ed473b5d71bbc1f69b7513304b7a59d49c7934bdfd87b266d6a0
+MD5sum: 3846cccccefe58a40a26b9532847924c
+SHA1: 8a99fc0444fa9b5addff95a1d98579bc0f9cfea6
+SHA256: bfca22ae004a041ebdc8e9b9a3532b66cb16fb7c69d47fca4fbcdb7bff7a2823
 Section: Entertainment
 Description: Enjoy your favorite movies on the go. To keep this site thriving strong ensure you use a VPN
 Author: @Bobby Movie Team <2Klasic@icloud.com>
@@ -32,10 +32,10 @@ Version: 1.2.1
 Architecture: iphoneos-arm
 Maintainer: iCapture Team <icaptureteam@icloud.com>
 Filename: ./debs/com.2klasic.icapture10_1.2.1_iphoneos-arm.deb
-Size: 11950384
-MD5sum: e1d2afc984a522e297e16fc58b8271e3
-SHA1: 2eaab9d50e445901661cf0484a8d034a0b190223
-SHA256: b4f1ca52786a9064fe177b8e988e68926abd8f669a58707a54b12d13d8e2f5fb
+Size: 11950390
+MD5sum: db970a555b56811d79b1f68c55dbe1a5
+SHA1: cc3c7a89d6bd566941346bd14d2cbd6842266d5e
+SHA256: ba3852771b248fe071335db510cee55136843deda24b7f53ea69f3462699eac3
 Section: Utilities
 Description: Capture10 The Multi Screen Record Built With Perfection.
 Author: iCapture Team <icaptureteam@icloud.com>
@@ -50,9 +50,9 @@ Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Filename: ./debs/com.2klasic.xcon_42~beta2_iphoneos-arm.deb
 Size: 142408
-MD5sum: 007f09f08d7b4e969abae6b7c8e01c2b
-SHA1: 59832486e2249a1d4802090ea7ca22c224268e32
-SHA256: efc8ef75cc42e4e749588812786c6a30014fdd5524db2bce9d34120792480afe
+MD5sum: a38504e92f2c73aa7d5166b640652181
+SHA1: f3ef966e5cfe714fde0e20d6e668e169dd4468a8
+SHA256: 42cb4e0a2ed94b7fcdc1d237e34b804c68e91adf4708bc215c2918faad1383d9
 Section: Tweaks
 Description: bypass anti-jailbreak protection on some of your favorite apps.
 Author: n00neimp0rtant <2Klasic@outlook.com>
@@ -60,15 +60,15 @@ Depiction: http://xcon.crazy.net/depictions/index.html?p=com.n00neimp0rtant.xcon
 Name: xCon
 
 Package: com.aerialx.ishshit
-Version: 1.2.1b
+Version: 1.2.2b
 Architecture: iphoneos-arm
 Maintainer: 2Klasic <derobi@icloud.com>
 Installed-Size: 5819
-Filename: ./debs/com.aerialx.ishshit_1.2.1b_iphoneos-arm.deb
-Size: 3419124
-MD5sum: a2ed7c9aeb5dc4cda700542b9a92b14c
-SHA1: 9220941d88b71aa7c79e7641ae1bf44ca4fb16bd
-SHA256: 6d03f73778e1c617749839e3881d24f4377f9caaf9310df662e059f9531ab830
+Filename: ./debs/com.aerialx.ishshit_1.2.2b_iphoneos-arm.deb
+Size: 3419112
+MD5sum: 241db18698b4508a3fd4becf8a85dd68
+SHA1: 4e0dbb3d41a52d78850be67b383884dfde109697
+SHA256: 4e35b3cc4e78ee576c181a4e87ef64a6f5b494611b7c880ca8bf4f5afbc76365
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Description: Easily backup firmware SHSH blobs “Updated to Support iOS 9 will add more devices in the future”! This is only for 32bit devices currently.
@@ -84,9 +84,9 @@ Architecture: iphoneos-arm
 Maintainer: 2Klasic <derobi@icloud.com>
 Filename: ./debs/com.iapeiron.savethemblobs_1.0b1_iphoneos-arm.deb
 Size: 24625236
-MD5sum: aea44dc404a536396eceef1a7d43688f
-SHA1: e97e81d361b4b82d702e6a42c4b0c357293973b8
-SHA256: cfa04e38c33a44259bec5f771bea5e2f33986048f0f85538050b8ee810393833
+MD5sum: d8c0890f076ce6ddfafe4d46ad9a9bd2
+SHA1: 9b649c006985b2f7290ce2ca5dbb133730e29491
+SHA256: 3337b301099bf76528034376e7113d4710861749b801af89f9dd550c6626a316
 Section: Utilities
 Description: Easily save/manage SHSH blobs from Apple and Cydia, This is currently a working beta.
 Author: iAperion <aperion@hotmail.ca>
@@ -99,9 +99,9 @@ Maintainer: @2Klasic <derobi@icloud.com>
 Depends: openssl, debianutils, coreutils
 Filename: ./debs/com.itrickz.iutility4ios_2.3.3_iphoneos-arm.deb
 Size: 2164
-MD5sum: 9d3af953d84ee658f4ed1bb4b44f6a2b
-SHA1: 6f19350bb99d7f89648d63dcd85250ca8dbba67f
-SHA256: d754b25b4909bec64bd6d64966f45aadb74dd7456335e47fcefa51f034d0e1c7
+MD5sum: 8da6b17f96f571f9588c7568cc1034d5
+SHA1: 000e5b450925c64e4067bbe97fbda6eda51f7c49
+SHA256: 16e1e4d4472b113c4580b69bd2836d76081867022d245ed263024e855ef127ae
 Section: Tweaks
 Description: iOS Utility Script to use this package open your favorite mobile terminal and type 'util' to start to use this package. Please submit and issues or feature requests to 2Klasic on twitter or iTrickzGG on twitter.
 Author: @iTrickzGG <itrickz101@gmail.com>
@@ -114,9 +114,9 @@ Maintainer: Julio
 Depends: mobilesubstrate
 Filename: ./debs/com.julioverne.pandolife_0.6-0_iphoneos-arm.deb
 Size: 79828
-MD5sum: a13cd129c557e854e792c6ad4cacfa65
-SHA1: 42666afd3ced5696d3eb36e8da13f672d0cb1a59
-SHA256: edb258bcc6f7667aa4cce5c2a10cc220b3de9c74b6d0da813af995c80e4fb9a4
+MD5sum: d3bb081181f83fced6110d8877f97e76
+SHA1: 1b199b1c8372ed684dc5b41759f5e5d41bc90ed0
+SHA256: 8982905d8f440e05b5a901e61c024d3c50b0408231f19b40b3ac2aedd99430b4
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Pandora No ADs, Unrestrict Country, Downloads, High Quality Stream, Unlimited Skips, No delay Button Skip, No 180 minutes timeout... Requires Pandora App (AppStore)
@@ -130,9 +130,9 @@ Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=10.0), zip, unzip, dpkg, debianutils, apt, apt7-key, apt7, apt7-lib, coreutils
 Filename: ./debs/net.if0x.cybackup10_0.0.6_iphoneos-arm.deb
 Size: 9418
-MD5sum: 1a75048b78dffed2e97f96bf7c684d11
-SHA1: 0b2a096373ae92c4f153333d20bb2bd5df263fc8
-SHA256: 6ea66070fe103cca4d514a953a0866e72341f1c33505d8b93746cbdfbce59145
+MD5sum: 2888d0e318860a0e3b68388e4495a5cf
+SHA1: 24af0c50eed9845d6169cb9f41449afd0b9c0685
+SHA256: 64687f369e66f9934fa3493985d228fa824101b2d5011e44d130087cfddf77a4
 Section: Tweaks
 Description: This version is currently UNTESTED. Backup installed tweaks (atm only main repos) as .debs and make a .zip Backup folder in /. To start type cybkp in MTerminal. Thanks to /u/elsatour for the idea and help. For support follow me on twitter (@if0xxx)
 Author: @if0xxx <if0x2080@gmail.com>
