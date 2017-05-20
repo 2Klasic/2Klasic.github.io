@@ -1,0 +1,10 @@
+Package: com.tihmstar.otachecker
+Name: iUtility4iOS
+Version: 1.0
+Architecture: iphoneos-arm
+Description: quick and dirty tool to check what ota blobs are currently being signed by apple
+Maintainer: @2Klasic <derobi@icloud.com>
+Author: @iTrickzGG <itrickz101@gmail.com>
+Depends:
+Section: Tweaks
+
