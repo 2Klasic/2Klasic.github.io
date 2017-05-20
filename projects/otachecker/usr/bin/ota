@@ -3,4 +3,4 @@
 #  ota.sh
 #
 echo "Package brought to you by tihmstar"
-./otachecker
+su root otachecker
