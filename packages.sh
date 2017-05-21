@@ -15,5 +15,5 @@ dpkg-deb -bZgzip projects/extendlife debs
 dpkg-deb -bZgzip projects/CyBackup_0.6 debs
 dpkg-deb -bZgzip projects/iUtility4iOS debs
 dpkg-deb -bZgzip projects/Savethemblobs debs
-dpkg-deb -bZgzip projects/otachecker debs
+dpkg-deb -bZgzip projects/mterminal_1.4-5 debs
 dpkg-deb -b Package3
