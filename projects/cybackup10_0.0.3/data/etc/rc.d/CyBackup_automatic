@@ -1,0 +1,46 @@
+#!/bin/sh
+
+#  CyBackup_automatic.sh
+#
+
+if [ -f /CyBackup/automatic_disabled ]
+	then exit 0
+elif [ -f /CyBackup/automatic_enabled ]
+	then 
+        date=$(date +'%Y-%m-%d')
+        if ! [ -d /CyBackup_"$date" ]
+            then mkdir /CyBackup_"$date"
+        fi
+        if ! [ -d /CyBackup_"$date"/lists ]
+            then mkdir /CyBackup_"$date"/lists
+        fi
+        if ! [ -d /CyBackup_"$date"/plists ]
+            then mkdir /CyBackup_"$date"/plists
+        fi
+        if ! [ -d /CyBackup_"$date"/debs ]
+            then mkdir /CyBackup_"$date"/debs
+        fi
+        apt-get update
+        cd /CyBackup_"$date"
+        dpkg --get-selections > /CyBackup_"$date"/lists/packages.list
+        sed -i '/gsc/d' /CyBackup_"$date"/lists/packages.list
+        sed -i '/pangu/d' /CyBackup_"$date"/lists/packages.list
+        sed -i '/taig/d' /CyBackup_"$date"/lists/packages.list
+        sed -i '/evasi0n/d' /CyBackup_"$date"/lists/packages.list
+        sed -i '/p0sixspwn/d' /CyBackup_"$date"/lists/packages.list
+        scp -r /etc/apt/sources.list.d /CyBackup_"$date"/lists
+        scp -r /var/mobile/Library/Preferences/*.plist /CyBackup_"$date"/plists
+        rm -rf /CyBackup_"$date"/plists/com.apple.*.plist
+        for i in $(dpkg --get-selections | grep -v deinstall | grep -v gsc.* | grep -v io.pangu.*  | cut -f1);
+            do echo y | apt-get install $i -d --reinstall
+                #aptitude -y download $i;
+                #apt-get install $i -d --reinstall
+            done
+        mv /var/cache/apt/archives/*.deb /CyBackup_"$date"/debs
+        if [ -d /CyBackup/debs ]
+            then
+                scp -r /CyBackup/debs/*.deb /CyBackup_"$date"/debs
+        fi
+        zip -r /CyBackup_"$date".zip /CyBackup_"$date"
+        rm -rf /CyBackup_"$date"
+fi

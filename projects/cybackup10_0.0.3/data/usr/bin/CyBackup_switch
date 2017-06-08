@@ -1,0 +1,13 @@
+#!/bin/sh
+
+#  CyBackup_switch.sh
+#
+if [ -f /CyBackup/automatic_disabled ]
+    then rm -rf /CyBackup/automatic_disabled
+    	echo "enabled" > /CyBackup/automatic_enabled
+    	echo "---------------done---------------"
+elif [ -f /CyBackup/automatic_enabled ]
+    then rm -rf /CyBackup/automatic_enabled
+    	echo "disabled" > /CyBackup/automatic_disabled
+    	echo "---------------done---------------"
+fi

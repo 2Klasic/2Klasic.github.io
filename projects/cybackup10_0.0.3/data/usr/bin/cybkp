@@ -1,0 +1,70 @@
+#!/bin/sh
+
+#  CyBackup.sh
+#
+exitpoint () {
+if [ "$rex" = "exit" ]
+then exit
+elif [ "$rex" = "restart" ]
+then cybkp
+fi
+}
+echo " "
+echo "----------------CyBackup----------------"
+echo " "
+echo "build Backup [1]"
+echo "restore Backup [2]"
+echo "copy Backup to your PC (Mac/Linux) [BROKEN][3]"
+echo "copy Backup to your iDevice (Mac/Linux) [BROKEN] [4]"
+if [ -f /CyBackup/automatic_disabled ]
+    then echo "enable automatic backups (experimental) [5]"
+elif [ -f /CyBackup/automatic_enabled ]
+    then echo "disable automatic backups (experimental) [5]"
+else
+    echo "Convert CyBackup data structure to enable automatic backups[6]"
+
+fi
+read a
+rex="$a"
+exitpoint
+if [ "$a" = "1" ]
+    then    echo "----------------CyBackup need to run as root----------------"
+            echo "----------------please insert root password----------------"
+            su root CyBackup_main
+elif [ "$a" = "2" ]
+    then    echo "----------------CyBackup need to run as root----------------"
+            echo "----------------please insert root password----------------"
+            su root CyBackup_restore
+elif [ "$a" = "3" ]
+    then    echo "----------------CyBackup need to run as root----------------"
+            echo "----------------please insert root password----------------"
+            su root CyBackup_trans
+elif [ "$a" = "4" ]
+    then    echo "----------------CyBackup need to run as root----------------"
+            echo "----------------please insert root password----------------"
+            su root CyBackup_retrans
+elif [ "$a" = "5" ]
+    then    echo "----------------CyBackup need to run as root----------------"
+            echo "----------------please insert root password----------------"
+            su root CyBackup_switch
+elif [ "$a" = "6" ]
+    then    echo "----------------CyBackup need to run as root----------------"
+            echo "----------------please insert root password----------------"
+            su root CyBackup_convert
+else
+    echo "error wrong character"
+    sleep 1s
+    echo " "
+    echo "restart? [y/n]"
+    read restart
+    rex="$restart"
+    exitpoint
+    if [ "$restart" = "y" ]
+        then cybkp
+    else
+        echo "----------------done----------------"
+    fi
+fi
+#
+#  Created by @if0xxx on 15.08.16.
+#

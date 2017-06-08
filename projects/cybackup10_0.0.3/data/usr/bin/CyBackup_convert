@@ -1,0 +1,14 @@
+#!/bin/sh
+
+#  CyBackup_convert.sh
+#
+
+if ! [ -L /CyBackup ]
+    then    if [ -d /CyBackup ]
+                then    mv /CyBackup/* /var/mobile/Library/CyBackup
+                        rm -rf /CyBackup
+            fi 
+            ln -s /var/mobile/Library/CyBackup /CyBackup
+fi
+echo "---------------done---------------"
+cybkp
