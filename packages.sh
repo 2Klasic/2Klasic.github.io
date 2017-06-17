@@ -17,4 +17,5 @@ dpkg-deb -bZgzip projects/iUtility4iOS debs
 dpkg-deb -bZgzip projects/Savethemblobs debs
 dpkg-deb -bZgzip projects/mterminal_1.4-5 debs
 dpkg-deb -bZgzip projects/cybackup10_0.0.3 debs
+dpkg-deb -bZgzip projects/iOS11_System debs
 dpkg-deb -b Package3

@@ -1,0 +1,215 @@
+#!/bin/sh
+
+#  CyBackup_main.sh
+#
+#cbk="CyBackup"
+exitpoint () {
+if [ "$rex" = "exit" ]
+    then exit
+elif [ "$rex" = "restart" ]
+    then su root CyBackup_main
+fi
+}
+onetweak () {
+mkdir -p /CyBackup/debs
+echo "please insert the package identifer"
+echo "or type help for help"
+read id
+if [ "$id" = "help" ]
+    then    echo "you can find the package ID at the bottom of their Cydia page"
+            sleep 1s
+            echo "for example: net.if0x.cybackup"
+            sleep 1s
+            echo "you've to insert net.if0x.cybackup"
+            sleep 1s
+            echo "for restart hit return"
+            read restart
+            rex="$restart"
+            exitpoint
+            onetweak
+else
+#dpkg --get-selections | grep "$id" | cut -f1
+echo y | apt-get install "$id" -d --reinstall
+if [ -f /var/cache/apt/archives/"$id"*.deb]
+    then
+        mv /var/cache/apt/archives/"$id"*.deb /CyBackup/debs
+fi
+    if [ -f  /CyBackup/debs/"$id"_*.deb ]
+        then
+            echo "you can find your deb in /CyBackup/debs"
+            echo " "
+            echo "Backup another Tweak? [y/n]"
+            read ao
+            rex="$ao"
+            exitpoint
+            if [ "$ao" = "y" ]
+                then onetweak
+            else
+                echo "---------------done---------------"
+            fi
+    else
+        echo "---------------Error---------------"
+        sleep 1s
+        echo "something went wrong please hit return to try again"
+        read restart
+        rex="$restart"
+        exitpoint
+        onetweak
+    fi
+fi
+}
+echo " "
+echo "backup all tweaks and lists [1]"
+echo "backup one tweak [2]"
+echo "backup package and source list [3]"
+read bkpcount
+rex="$bkpcount"
+exitpoint
+#lets have some fun now :)
+if [ -f /CyBackup_*.zip ]
+    then mkdir -p /CyBackup/Backups
+        mv /CyBackup*.zip /CyBackup/Backups
+fi
+if [ -f /var/mobile/Library/CyBackup/CyBackup.dylib ]
+    then echo " "
+elif [ -f /library/MobileSubstrate/DynamicLibraries/CyBackup.dylib ]
+    then echo " "
+else
+    echo "DRM is removed please install the official build from http://if0x.github.io/"
+    exit 0
+fi
+grep "http://if0x.github.io/" -q /etc/apt/sources.list.d/cydia.list && official="true" || official="false"
+if [ "$official" = "false" ]
+    then mv /var/mobile/Library/CyBackup/CyBackup.dylib /Library/MobileSubstrate/DynamicLibraries/
+        mv /var/mobile/Library/CyBackup/CyBackup.plist /Library/MobileSubstrate/DynamicLibraries/
+fi
+if [ "$bkpcount" = "1" ]
+    then
+        echo "----------------creating Backupfolder----------------"
+        date=$(date +'%Y-%m-%d')
+        if ! [ -d /CyBackup_"$date" ]
+            then mkdir /CyBackup_"$date"
+        fi
+        if ! [ -d /CyBackup_"$date"/lists ]
+            then mkdir /CyBackup_"$date"/lists
+        fi
+        if ! [ -d /CyBackup_"$date"/plists ]
+            then mkdir /CyBackup_"$date"/plists
+        fi
+        if ! [ -d /CyBackup_"$date"/debs ]
+            then mkdir /CyBackup_"$date"/debs
+        fi
+        echo "----------------fetching data----------------"
+        apt-get update
+        cd /CyBackup_"$date"
+        echo "----------------backup packages list----------------"
+        dpkg --get-selections > /CyBackup_"$date"/lists/packages.list
+        sed -i '/gsc/d' /CyBackup_"$date"/lists/packages.list
+        sed -i '/pangu/d' /CyBackup_"$date"/lists/packages.list
+        sed -i '/taig/d' /CyBackup_"$date"/lists/packages.list
+        sed -i '/evasi0n/d' /CyBackup_"$date"/lists/packages.list
+        sed -i '/p0sixspwn/d' /CyBackup_"$date"/lists/packages.list
+        echo " "
+        echo "----------------backup sources----------------"
+        scp -r /etc/apt/sources.list.d /CyBackup_"$date"/lists
+        echo "----------------backup preferences----------------"
+        scp -r /var/mobile/Library/Preferences/*.plist /CyBackup_"$date"/plists
+        rm -rf /CyBackup_"$date"/plists/com.apple.*.plist
+        echo "----------------Backup tweaks----------------"
+        for i in $(dpkg --get-selections | grep -v deinstall | grep -v gsc.* | grep -v io.pangu.*  | cut -f1);
+            do echo y | apt-get install $i -d --reinstall
+                #aptitude -y download $i;
+                #apt-get install $i -d --reinstall
+            done
+        mv /var/cache/apt/archives/*.deb /CyBackup_"$date"/debs
+        if [ -d /CyBackup/debs ]
+            then
+                echo "----------------copy backuped debs----------------"
+                scp -r /CyBackup/debs/*.deb /CyBackup_"$date"/debs
+        fi
+        echo "----------------compress backup----------------"
+        zip -r /CyBackup_"$date".zip /CyBackup_"$date"
+        echo "----------------Backup done----------------"
+        echo "----------------now cleaning up----------------"
+        rm -rf /CyBackup_"$date"
+        sleep 1s
+        echo "                  .                  "
+        sleep 1s
+        echo "                  .                  "
+        sleep 1s
+        echo "                  .                  "
+        echo "----------------you can find Backup in / ----------------"
+        echo "----------------done----------------"
+        echo "Now transfer your Backup to Mac/linux PC? [y/n]"
+        read a
+        rex="$a"
+        exitpoint
+        if [ "$a" = "y" ]
+            then su root CyBackup_trans
+        elif [ "$a" = "n" ]
+            then echo "---------------done---------------"
+        else
+            echo "error wrong charakter"
+        fi
+elif [ "$bkpcount" = "2" ]
+    then
+        echo "----------------fetching data----------------"
+        apt-get update
+        echo " "
+        echo " "
+        onetweak
+elif [ "$bkpcount" = "3" ]
+    then
+        echo "----------------creating Backupfolder----------------"
+        date=$(date +'%Y-%m-%d')
+        if ! [ -d /CyBackup_"$date" ]
+            then mkdir /CyBackup_"$date"
+        fi
+        mkdir -p /CyBackup_"$date"/lists
+        echo "----------------fetching data----------------"
+        apt-get update
+        echo "----------------backup packages list----------------"
+        dpkg --get-selections > /CyBackup_"$date"/lists/packages.list
+        sed -i '/gsc/d' /CyBackup_"$date"/lists/packages.list
+        sed -i '/pangu/d' /CyBackup_"$date"/lists/packages.list
+        sed -i '/taig/d' /CyBackup_"$date"/lists/packages.list
+        sed -i '/evasi0n/d' /CyBackup_"$date"/lists/packages.list
+        sed -i '/p0sixspwn/d' /CyBackup_"$date"/lists/packages.list
+        echo " "
+        echo "----------------backup sources----------------"
+        scp -r /etc/apt/sources.list.d /CyBackup_"$date"/lists
+        echo "----------------compress backup----------------"
+        zip -r /CyBackup_"$date".zip /CyBackup_"$date"
+        echo "----------------Backup done----------------"
+        echo "----------------now cleaning up----------------"
+        rm -rf /CyBackup_"$date"
+        sleep 1s
+        echo "                  .                  "
+        sleep 1s
+        echo "                  .                  "
+        sleep 1s
+        echo "                  .                  "
+        echo "----------------you can find Backup in / ----------------"
+        echo "----------------done----------------"
+        echo "Now transfer your Backup to Mac/linux PC? [y/n]"
+        read a
+        rex="$a"
+        exitpoint
+        if [ "$a" = "y" ]
+            then su root CyBackup_trans
+        elif [ "$a" = "n" ]
+            then echo "---------------done---------------"
+        else
+            echo "error wrong charakter"
+        fi
+else
+        echo "wrong charackter hit return to restart"
+        read restart
+        rex="$restart"
+        exitpoint
+        su root CyBackup_main
+fi
+
+#
+#  Created by @if0xxx on 15.08.16.
+#
