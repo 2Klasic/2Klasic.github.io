@@ -1,0 +1,8 @@
+Package: setuptools
+Name: Setup Tools
+Version: 0.6c11
+Architecture: iphoneos-arm
+Depends: python
+Description: package manager for Python modules
+Maintainer: iAperion <aperion@hotmail.ca>
+Section: Packaging
