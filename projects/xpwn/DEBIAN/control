@@ -1,7 +1,6 @@
 Package: xpwn
 Priority: optional
 Section: Archiving
-Installed-Size: 468
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Architecture: iphoneos-arm
 Version: 1.0
@@ -10,4 +9,4 @@ Depends: openssl, png
 Description: portable, barebones PwnageTool implementation
 Name: XPwn
 Author: planetbeing <planetbeing@gmail.com>
-Homepage: http://github.com/planetbeing/xpwn/tree/master
+
