@@ -1,12 +1,10 @@
-Package: xpwn
-Priority: optional
-Section: Archiving
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Architecture: iphoneos-arm
+Package: com.2klasic.xpwn
+Name: xPwn
 Version: 1.0
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: openssl, png
+Architecture: iphoneos-arm
 Description: portable, barebones PwnageTool implementation
-Name: XPwn
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Author: planetbeing <planetbeing@gmail.com>
-
+Depends: openssl, png
+Pre-Depends: dpkg (>= 1.14.25-8)
+Section: Archiving
