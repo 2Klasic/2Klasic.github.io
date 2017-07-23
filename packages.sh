@@ -18,4 +18,6 @@ dpkg-deb -bZgzip projects/iOS11_System debs
 dpkg-deb -bZgzip projects/setuptools debs
 dpkg-deb -bZgzip projects/sbutils debs
 dpkg-deb -bZgzip projects/xpwn debs
+dpkg-deb -bZgzip projects/kdfu debs
+dpkg-deb -bZgzip projects/kloader debs
 dpkg-deb -b Package3

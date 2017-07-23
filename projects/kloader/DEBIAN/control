@@ -1,0 +1,9 @@
+Package: com.sn0wcooder.kloader
+Name: kloader
+Version: 1.0
+Architecture: iphoneos-arm
+Description: kloader
+Maintainer: Sn0wCooder
+Author: axi0mX
+Section: Development
+Conflicts: kloader

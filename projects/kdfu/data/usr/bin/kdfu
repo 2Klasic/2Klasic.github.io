@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root" 1>&2
+   exit 1
+fi
+
+device=$(uname --machine)
+
+if [ -f "/var/EnterkDFUiBSS/$device/pwnediBSS" ]; then
+  kloader /var/EnterkDFUiBSS/$device/pwnediBSS
+else
+  echo "You can not enter kDFU Mode on this device. Devices supported:"
+  devicessupported=$(ls /var/EnterkDFUiBSS/)
+  echo $devicessupported
+  echo "Current device: $device"
+fi

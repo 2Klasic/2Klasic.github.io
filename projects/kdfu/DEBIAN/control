@@ -1,0 +1,11 @@
+Package: com.sn0wcooder.kdfu
+Name: kdfu
+Version: 1.0
+Architecture: iphoneos-arm
+Description: kdfu is an easy way to get into kDFU mode.'kdfu' from any Terminal (root) Devices currently supported: iPad1,1 / iPad2,1 / iPad2,2 / iPad2,3 / iPad2,4 / iPad2,5 / iPad2,6 / iPad2,7 /iPad3,1 / iPad3,2 / iPad3,3 / iPad3,4 / iPad3,5 / iPad3,6 / iPhone2,1 / iPhone3,1 / iPhone3,2 / iPhone3,3 / iPhone4,1 / iPhone5,1 / iPhone5,2 / iPhone5,3 / iPhone5,4 / iPod3,1 / iPod4,1 / iPod5,1 Huge thanks to xpwntool and all peoples who discovered Firmware Keys for these devices.
+Maintainer: Sn0wCooder
+Author: Sn0wCooder
+Section: Development
+Depends: com.sn0wcooder.kloader
+Conflicts: kloader
+
