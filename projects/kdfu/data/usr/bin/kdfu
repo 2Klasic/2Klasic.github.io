@@ -7,11 +7,11 @@ fi
 
 device=$(uname --machine)
 
-if [ -f "/var/EnterkDFUiBSS/$device/pwnediBSS" ]; then
-  kloader /var/EnterkDFUiBSS/$device/pwnediBSS
+if [ -f "/var/kDFUiBSS/$device/pwnediBSS" ]; then
+  kloader /var/kDFUiBSS/$device/pwnediBSS
 else
   echo "You can not enter kDFU Mode on this device. Devices supported:"
-  devicessupported=$(ls /var/EnterkDFUiBSS/)
+  devicessupported=$(ls /var/kDFUiBSS/)
   echo $devicessupported
   echo "Current device: $device"
 fi
