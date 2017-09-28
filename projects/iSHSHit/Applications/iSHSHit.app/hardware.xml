@@ -540,6 +540,10 @@
 		<firmware version="10.3" build="14E277" />
 	</hardware>
 
+	<hardware name="iPhone9,4" model="D111AP" description="iPhon9,4 D111AP">
+		<firmware version="11.0.1" build="15A402" />
+	</hardware>
+	
 	<hardware name="iPad1,1" model="K48AP" description="iPad1,1 K48AP">
 		<firmware version="3.2" build="7B367" />
 		<firmware version="3.2.1" build="7B405" />
