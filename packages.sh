@@ -1,6 +1,7 @@
 #!/bin/bash
 dpkg-deb -bZgzip projects/iSHSHit debs
 #dpkg-deb -bZgzip projects/Old_CyBackup debs
+dpkg-deb -bZgzip projects/MovieDB debs
 dpkg-deb -bZgzip projects/BobbyMovie_2.3.0 debs
 dpkg-deb -bZgzip projects/BobbyMovie_3.0.1 debs
 dpkg-deb -bZgzip projects/BobbyMovie_3.0.4 debs
@@ -20,5 +21,5 @@ dpkg-deb -bZgzip projects/sbutils debs
 dpkg-deb -bZgzip projects/xpwn debs
 dpkg-deb -bZgzip projects/kdfu debs
 dpkg-deb -bZgzip projects/kloader debs
-dpkg-deb -bZgzip projects/MovieDB debs
+
 dpkg-deb -b Package3

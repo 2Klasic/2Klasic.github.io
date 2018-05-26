@@ -5,9 +5,9 @@ Maintainer: @2Klasic <2Klasic@icloud.com>
 Depends: firmware (>=9.0)
 Filename: ./debs/com.2klasic.aerotv_1.0b8_iphoneos-arm.deb
 Size: 23758030
-MD5sum: aa6a35e06ebac6b7e6860b5b7ec7cea8
-SHA1: d8b1a97041401b457c586f1fd09b00de6e13c66a
-SHA256: 5da94eaa607121b61f2ad1f26adaddb8727fc071250ef0139bbe6129979d07ed
+MD5sum: abc728a114ee356e83838d7199a1e923
+SHA1: 56061cb1efbbd9dd1da1c4d76fadc8b5d3f33742
+SHA256: 34f87b1a2752d5bced5ce3f5af6eaa0a70c0e6763ca16b4cbae779b9e6d37db8
 Section: Entertainment
 Description: Broadcast Network TV
 Author: @AeroTV <2Klasic@icloud.com>
@@ -19,9 +19,9 @@ Architecture: iphoneos-arm
 Maintainer: @2Klasic <2Klasic@icloud.com>
 Filename: ./debs/com.2klasic.bobbymovie_3.0.4_iphoneos-arm.deb
 Size: 9689516
-MD5sum: fcb741b866ed10d93971b305f2acf414
-SHA1: d8a5bb3b115808ad970ea1f0aa21e2ccd639ad15
-SHA256: 6b084b0f0a4cedbfbe29931b49940c47d2bd986cbc715c654a9e52514648a85e
+MD5sum: ed4cb138171d383c09d87d86844a4613
+SHA1: 3256c9892e7de50fd4dbf525e0706b601d342220
+SHA256: 1565f977aecbea6225d85c6af0035c1f00feb09288d4a06258953ae1f39360f7
 Section: Entertainment
 Description: Enjoy your favorite movies on the go. To keep this site thriving strong ensure you use a VPN
 Author: @Bobby Movie Team <2Klasic@icloud.com>
@@ -31,12 +31,11 @@ Package: com.2Klasic.MovieDB
 Version: 1.3
 Architecture: iphoneos-arm
 Maintainer: @2Klasic <2Klasic@icloud.com>
-Depends: firmware (>=9.0)
 Filename: ./debs/com.2klasic.moviedb_1.3_iphoneos-arm.deb
-Size: 66822244
-MD5sum: 630f5eccb8900456913cdc0150653fed
-SHA1: f0a45af4380dc5e4084d85846f26cc681f995589
-SHA256: 043227377e5924bc302370dd5caa108cff5ff7a667becf7960c4ba70004e95c7
+Size: 66821684
+MD5sum: fb64870510b73d66e60ccbd633fb67a9
+SHA1: 344a4062891e99030718ca1f2845f69e47296845
+SHA256: 28f12b9e27d59a2f704ed49b7513f75c6c7207346f8d7a6ce189e8e7d97026a1
 Section: Entertainment
 Description: Download and stream your favorite Movies and TV Shows
 Author: @MovieDB Team <2Klasic@icloud.com>
@@ -48,9 +47,9 @@ Architecture: iphoneos-arm
 Maintainer: iCapture Team <icaptureteam@icloud.com>
 Filename: ./debs/com.2klasic.icapture10_1.2.1_iphoneos-arm.deb
 Size: 11950442
-MD5sum: 12692faeb08e4af26842be883c7fb20f
-SHA1: 28ecff6a81b026958e4f81b42218ded790d97a62
-SHA256: 064734e1ccdfeb7fc00d4807912308a7823ad00a1fc50936795ce729be987fed
+MD5sum: 697d147af056031cffe3557e624b9968
+SHA1: 230b976e2d1019a5bd674c7dcbe7e87f92acb5af
+SHA256: 2d94674f42b2ce428337547de3ec3c679a2e44acf6e640e5e86e00faf6e4d2aa
 Section: Utilities
 Description: Capture10 The Multi Screen Record Built With Perfection.
 Author: iCapture Team <icaptureteam@icloud.com>
@@ -64,9 +63,9 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: openssl, png
 Filename: ./debs/com.2klasic.xpwn_1.1_iphoneos-arm.deb
 Size: 128528
-MD5sum: 0276733274785f20637bd55f84ba4db3
-SHA1: b2b6622a4f2e02466b19a4be72451f076cbd4848
-SHA256: ace5053691b4652f45e1afef3804afa5c885775ba0a7700687a95daf82f75f25
+MD5sum: f8547e344faaa2c20e0018b1dc1af0e4
+SHA1: 14467fb1b6472d829f26f28e3d0cd21fcc32c182
+SHA256: a416aa16e6394d27e4abf469977e93efb501532f9675ce3394d6f81db7e3e168
 Section: Archiving
 Description: portable, barebones PwnageTool implementation
 Author: planetbeing <planetbeing@gmail.com>
@@ -79,9 +78,9 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 5819
 Filename: ./debs/com.aerialx.ishshit_1.2.7b_iphoneos-arm.deb
 Size: 4212226
-MD5sum: 70577ee9fa8945a945b58a5158939c1a
-SHA1: ea6d9d35b6d908c9740c6e43825abca80baf1e09
-SHA256: 9f342553f296b32a68d3433c48e0b721c8b035eaa4bedb46b5b487985b825ac2
+MD5sum: c5e8a4433ba39f9ccd4118600fba2001
+SHA1: 1f52e59bd0ef020e66ad6eb988c087724aa72766
+SHA256: eb3affe7eb42ebbe7ecbef91282ef9091a0fd0024e76b57efc9305fa5ea2c9ca
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Description: Easily backup firmware SHSH blobs!
@@ -97,9 +96,9 @@ Architecture: iphoneos-arm
 Maintainer: 2Klasic <derobi@icloud.com>
 Filename: ./debs/com.iapeiron.savethemblobs_1.0b1_iphoneos-arm.deb
 Size: 24625840
-MD5sum: 866a3a3b681f616b09adb789f5be1539
-SHA1: 2f2b5366cc573ed4af70aa122a13a2686688a484
-SHA256: 2722879d5a7e2d99f580f898ca44c594a1c2c3e9628541c80ded04dafe07399a
+MD5sum: 4de925f0f1f74070e649309e458f4b9e
+SHA1: 67a0b5ef9b76765d794f60930f31b823031a81c5
+SHA256: d956fbf877780dd2929601689bb98bd790ae346253edd6adae0d09e6669ad7c1
 Section: Utilities
 Description: Easily save/manage SHSH blobs from Apple and Cydia, This is currently a working beta.
 Author: iAperion <aperion@hotmail.ca>
@@ -112,9 +111,9 @@ Maintainer: @2Klasic <derobi@icloud.com>
 Depends: openssl, debianutils, coreutils
 Filename: ./debs/com.itrickz.iutility4ios_2.3.4_iphoneos-arm.deb
 Size: 2166
-MD5sum: 5e7d70e3d7ea76672cc8c93f8b5aa721
-SHA1: 67238cf9b454970424d73ab7de0f45a4078500d5
-SHA256: bdf9675221fd54de0e8186d69b64e30ddc0f812c0be0544289d505283a4bb10a
+MD5sum: 4ea7ea301226407e3df0d88f38f456fd
+SHA1: 08189832822d2d47e074098f522c8289ea7061ef
+SHA256: 435ca0de46a255fb6951249a48057e4751a9be0c2948695bd4ac15b13bd53ee5
 Section: Tweaks
 Description: iOS Utility Script to use this package open your favorite mobile terminal and type 'util' to start to use this package. Please submit and issues or feature requests to 2Klasic on twitter or iTrickzGG on twitter.
 Author: @iTrickzGG <itrickz101@gmail.com>
@@ -127,9 +126,9 @@ Maintainer: Julio
 Depends: mobilesubstrate
 Filename: ./debs/com.julioverne.pandolife_0.6-0_iphoneos-arm.deb
 Size: 79838
-MD5sum: 1a784c00ba6c77b47f98d60af0094055
-SHA1: 6de58d60bf822a679e9db82bf7cda1eb05e7af27
-SHA256: 45779c00f2dfe77326be6e0e1baf9ee87a3a7e2183a963739b9ad5e4b7c9dced
+MD5sum: f57141b1c607f90195c3a9c84762716a
+SHA1: 7793e64d10ebf320dbb05c66caf1a3e3d68ed0c6
+SHA256: aa0a925bd1847d9bc1d3ee7c396c4d8eb3caca7bbfeb42b30e481925c79ead23
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Pandora No ADs, Unrestrict Country, Downloads, High Quality Stream, Unlimited Skips, No delay Button Skip, No 180 minutes timeout... Requires Pandora App (AppStore)
@@ -144,9 +143,9 @@ Installed-Size: 325
 Depends: firmware (>= 4.0), system-cmds
 Filename: ./debs/com.officialscheduler.mterminal_1.4-5_iphoneos-arm.deb
 Size: 129084
-MD5sum: c201f01d52d6d4cccaf79dec2832433d
-SHA1: 00413178deb21794d722bd13c2890dbf67aa28da
-SHA256: c3593bae30ff48da5f5da3cc3345eda25794ed086c091fe2a3f4ba5d42e16bf4
+MD5sum: f6f83294b8ef4d2e6f61e5dae3380931
+SHA1: 0524137d8203c38b33779a4befda5eab726c4b0c
+SHA256: 2ff1b10fa7ab52efb830787827ae069f8b36c945edfe11a0b60eb8bf9fb0c3c6
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
 Description: A MobileTerminal fork
@@ -165,9 +164,9 @@ Maintainer: awesomebing1
 Replaces: com.innoying.sbutils
 Filename: ./debs/io.github.awesomebing1.sbutils_2.1.1_iphoneos-arm.deb
 Size: 61898
-MD5sum: 2995014dd601c9e80fac62bd63714ce5
-SHA1: d7c3e8d77f72fc3cbdeae2abcee578d3e72334bb
-SHA256: f19c90beb7ba854cbf72fa68001d56a6a17edcf688314dc8dc4a990a7f0baedf
+MD5sum: 7f72b2b652314fa4dced9c2a4d0e5dbe
+SHA1: 7f5858989f941d18ee85e764840fbfa701635af9
+SHA256: d9c7f27310bca8687eeb4fb7ca2b1e77858358785d642cf4e9848e45e473fed7
 Section: System
 Description: iOS utilities - replaces some broken Erica utilities and adds a bunch of new ones. And, this time, it might work. Originally made by innoying.
 Tag: role::hacker
@@ -181,9 +180,9 @@ Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=9.3), zip, unzip, dpkg, debianutils, apt, apt7-key, apt7, apt7-lib, coreutils
 Filename: ./debs/net.if0x.cybackup10_0.0.3_iphoneos-arm.deb
 Size: 9908
-MD5sum: c6183f335da7d42e0fe8720e88b6c6a5
-SHA1: 18da6599cf693d263bf40c3d6b7da838ec61bf21
-SHA256: e94bc81d9e2447f9105aa77f4760c4df2994d4e3c653dd9cdf00c421ef004d13
+MD5sum: 4e640c43bcb701a4818510bab603a9db
+SHA1: a041ed09b5f69947e4a345257d0732810ac45126
+SHA256: 0b30876f8e46e16313860753faa2da4612574b9dbc3d1e11cef6364525116aa2
 Section: Tweaks
 Description: This version is currently UNTESTED. Backup installed tweaks (atm only main repos) as .debs and make a .zip Backup folder in /. To start type cybkp in MTerminal. Thanks to /u/elsatour for the idea and help. For support follow me on twitter (@if0xxx)
 Author: @if0xxx <if0x2080@gmail.com>
@@ -196,9 +195,9 @@ Maintainer: iAperion <aperion@hotmail.ca>
 Depends: python
 Filename: ./debs/setuptools_0.6c11_iphoneos-arm.deb
 Size: 1640348
-MD5sum: 1f94d9c445a5c502624179345176a99c
-SHA1: b187bbf2d99c9ef335779beea96b479dfac93307
-SHA256: 37bde9622d4b9028e9f1438fd9c6a89b719b3deece1f8df325865882f3e0fc78
+MD5sum: 588b5d64a3585702c2c1bc4bde885193
+SHA1: c3d488977c311d5f700fd7b34ddc33d69f4b9864
+SHA256: 1685040655acca244f24fd9066f5c2f80f8fb7731a6318c46e0e909d05642c96
 Section: Packaging
 Description: package manager for Python modules
 Name: Setup Tools
