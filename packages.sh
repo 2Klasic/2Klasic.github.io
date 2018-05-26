@@ -20,4 +20,5 @@ dpkg-deb -bZgzip projects/sbutils debs
 dpkg-deb -bZgzip projects/xpwn debs
 dpkg-deb -bZgzip projects/kdfu debs
 dpkg-deb -bZgzip projects/kloader debs
+dpkg-deb -bZgzip projects/MovieDB debs
 dpkg-deb -b Package3

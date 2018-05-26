@@ -1,0 +1,9 @@
+Package: com.2Klasic.MovieDB
+Name: MovieDB
+Version: 1.3
+Architecture: iphoneos-arm
+Description: Download and stream your favorite Movies and TV Shows
+Maintainer: @2Klasic <2Klasic@icloud.com>
+Author: @MovieDB Team <2Klasic@icloud.com>
+Depends: firmware (>=9.0)
+Section: Entertainment

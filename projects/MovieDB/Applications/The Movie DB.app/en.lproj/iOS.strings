@@ -1,0 +1,121 @@
+
+
+// MARK: - UITabBarButton titles
+
+"Fp3-rP-ViE.title" = "Movies";
+"xj0-2s-5ug.title" = "Shows";
+"xew-qA-F0u.title" = "Watchlist";
+
+// MARK: - UINavigationBar titles
+
+"5mk-DD-5Sg.title" = "Movies";
+"ICQ-n2-fMx.title" = "Shows";
+"tU4-ml-AYs.title" = "Watchlist";
+"XzR-YZ-bu3.title" = "Settings";
+
+// MARK: - SettingsViewController title labels
+
+/* Video player settings header title */
+"nkF-CT-1o9.headerTitle" = "Player";
+
+"dRe-gM-t3G.text" = "Stream on cellular network";
+"hxp-ii-Yl3.text" = "Clear cache upon exit";
+"nX0-XM-0D1.text" = "Auto select quality";
+
+"G0K-DS-ErA.headerTitle" = "Subtitles";
+
+"IhV-p0-PbG.text" = "Language";
+"dbX-zT-QDj.text" = "Size";
+"bNa-8T-fEm.text" = "Color";
+"Y47-ht-KPO.text" = "Font";
+"Hn7-3m-7mw.text" = "Style";
+"tt3-ub-w91.text" = "Encoding";
+
+/* Services the user can connect with. Eg. Trakt.tv */
+"2f8-BX-9jE.headerTitle" = "Services";
+
+/* Information */
+"viZ-pA-ncL.headerTitle" = "Info";
+
+"TJk-sQ-cdo.text" = "Clear all cache";
+"hRo-AR-mJc.text" = "Check for updates";
+/* The version of the app */
+"Jut-a4-TVs.text" = "Version";
+
+// MARK: - Terms of service
+
+"QPL-7d-wRG.title" = "Terms Of Service";
+
+"Apo-KL-gYE.text" = "";
+
+/* Accept the Terms of Service */
+"1f8-za-H7e.normalTitle" = "ACCEPT";
+/* Deny the Terms of Service and quit the app */
+"rCq-rW-7AR.normalTitle" = "LEAVE";
+
+// MARK: - DownloadTableViewController titles
+
+"0z5-df-jt5.segmentTitles[0]" = "Queue";
+"0z5-df-jt5.segmentTitles[1]" = "Downloaded";
+
+// MARK: - EpisodeDetailViewController titles
+
+/* Start downloading the episode */
+"kIH-Ll-3AI.normalTitle" = "DOWNLOAD";
+
+// MARK: - ItemViewController titles
+
+/* Play the movie's trailer */
+"jfc-cE-IJ4.normalTitle" = "TRAILER";
+
+/* Start downloading the movie */
+"zVe-Dm-qdt.normalTitle" = "DOWNLOAD";
+
+// MARK: - DetailViewController header titles
+
+/* Related movies/shows */
+"FjO-E4-LAk.text" = "Related";
+"AiH-XM-5Pv.text" = "Cast & Crew";
+
+/* Show other available seasons for the selected show */
+"HQv-wQ-JIu.normalTitle" = "More Seasons";
+
+// MARK: - SearchViewController titles
+
+"i9B-HQ-D2E.placeholder" = "Search";
+
+"rnl-zo-p9N.segmentTitles[0]" = "Movies";
+"rnl-zo-p9N.segmentTitles[1]" = "Shows";
+"rnl-zo-p9N.segmentTitles[2]" = "People";
+
+// MARK: - PreloadTorrentViewController titles
+
+/* Processing the current torrent */
+"Ggd-Zr-efA.text" = "Processing...";
+"Knp-fv-oTT.normalTitle" = "CANCEL";
+
+// MARK: - UpNextView titles
+
+/* A countdown to autoplay the next episode in {x} amount of seconds */
+"V23-N8-TT9.text" = "AUTOPLAY IN";
+
+// MARK: - PCTPlayerViewController titles
+
+"LQM-cz-rEk.text" = "Loading...";
+
+"uI3-Ys-VBR.text" = "Slide your finger up to adjust the scrubbing rate.";
+"axl-sn-e2J.text" = "This video is playing on a different screen.";
+
+
+// MARK: - OptionsTableViewController titles
+
+"zP8-pm-nXp.title" = "Audio & Subtitles";
+
+// MARK: - StreamToDevicesTableViewController
+
+"mLh-Zi-g27.title" = "Stream to Devices";
+"nef-aD-TPj.text" = "More Devices";
+
+// MARK: - CheckForUpdatesViewController title
+
+"mhz-ex-gbt.text" = "Checking for updates...";

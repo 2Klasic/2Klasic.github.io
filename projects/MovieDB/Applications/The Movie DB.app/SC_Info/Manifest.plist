@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SinfPaths</key>
+	<array>
+		<string>SC_Info/The Movie DB.sinf</string>
+	</array>
+	<key>SinfReplicationPaths</key>
+	<array>
+		<string>Frameworks/AEXML.framework/SC_Info/AEXML.sinf</string>
+		<string>Frameworks/Alamofire.framework/SC_Info/Alamofire.sinf</string>
+		<string>Frameworks/AlamofireImage.framework/SC_Info/AlamofireImage.sinf</string>
+		<string>Frameworks/AlamofireNetworkActivityIndicator.framework/SC_Info/AlamofireNetworkActivityIndicator.sinf</string>
+		<string>Frameworks/AlamofireXMLRPC.framework/SC_Info/AlamofireXMLRPC.sinf</string>
+		<string>Frameworks/DACircularProgress.framework/SC_Info/DACircularProgress.sinf</string>
+		<string>Frameworks/FloatRatingView.framework/SC_Info/FloatRatingView.sinf</string>
+		<string>Frameworks/GoogleCast.framework/SC_Info/GoogleCast.sinf</string>
+		<string>Frameworks/Locksmith.framework/SC_Info/Locksmith.sinf</string>
+		<string>Frameworks/MBProgressHUD.framework/SC_Info/MBProgressHUD.sinf</string>
+		<string>Frameworks/MWPhotoBrowser.framework/SC_Info/MWPhotoBrowser.sinf</string>
+		<string>Frameworks/MarqueeLabel.framework/SC_Info/MarqueeLabel.sinf</string>
+		<string>Frameworks/OBSlider.framework/SC_Info/OBSlider.sinf</string>
+		<string>Frameworks/ObjectMapper.framework/SC_Info/ObjectMapper.sinf</string>
+		<string>Frameworks/OnePasswordExtension.framework/SC_Info/OnePasswordExtension.sinf</string>
+		<string>Frameworks/Reachability.framework/SC_Info/Reachability.sinf</string>
+		<string>Frameworks/SDWebImage.framework/SC_Info/SDWebImage.sinf</string>
+		<string>Frameworks/SwiftyJSON.framework/SC_Info/SwiftyJSON.sinf</string>
+		<string>Frameworks/SwiftyTimer.framework/SC_Info/SwiftyTimer.sinf</string>
+		<string>Frameworks/TheMovieDBKit.framework/SC_Info/TheMovieDBKit.sinf</string>
+		<string>Frameworks/VideoKit.framework/SC_Info/VideoKit.sinf</string>
+		<string>Frameworks/XCDYouTubeKit.framework/SC_Info/XCDYouTubeKit.sinf</string>
+		<string>SC_Info/The Movie DB.sinf</string>
+	</array>
+</dict>
+</plist>
