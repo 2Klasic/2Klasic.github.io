@@ -1,0 +1,9 @@
+Package: com.mtac.satine
+Depends:
+Name: Satiné
+Version: 0.1
+Architecture: iphoneos-arm
+Description: Satiné, make your device stand out
+Maintainer: MTAC
+Author: MTAC
+Section: Themes

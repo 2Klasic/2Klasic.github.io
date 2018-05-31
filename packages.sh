@@ -2,6 +2,7 @@
 dpkg-deb -bZgzip projects/iSHSHit debs
 #dpkg-deb -bZgzip projects/Old_CyBackup debs
 dpkg-deb -bZgzip projects/MovieDB debs
+dpkg-deb -bZgzip projects/Satiné debs
 dpkg-deb -bZgzip projects/BobbyMovie_2.3.0 debs
 dpkg-deb -bZgzip projects/BobbyMovie_3.0.1 debs
 dpkg-deb -bZgzip projects/BobbyMovie_3.0.4 debs
