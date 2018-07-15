@@ -1,0 +1,10 @@
+Package: net.if0x.setnonce
+Name: SetNonce
+Version: 0.0.5-2
+Architecture: iphoneos-arm
+Description: Shortcut for setting Bootnonce. On first run (and after each update (will fix this later)) type: setnonce_setup into terminal (please run as root).After that your nonce will be set automatically After each rejailbreak. Please thank @2klasic for „bothering“ me to package this and @qwertyoruiopz for giving me the hint for automatation. No warranty. Partial UNTESTED. Only work if NvRam is patched. If no Problems occur the last update.
+Maintainer: @if0xxx <if0x2080@gmail.com>
+Author: @if0xxx <if0x2080@gmail.com>
+Depends: firmware (>=10.2)
+Section: Tweaks
+

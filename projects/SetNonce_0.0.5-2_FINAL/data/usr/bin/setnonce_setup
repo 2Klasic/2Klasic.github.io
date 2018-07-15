@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#  setnonce_setup.sh
+#
+echo "type your nonce in"
+read nonce
+echo "nonce='$nonce'" >> /etc/rc.d/setnonce_main
+echo "main" >> /etc/rc.d/setnonce_main
+
+rm -rf /usr/bin/setnonces_setup

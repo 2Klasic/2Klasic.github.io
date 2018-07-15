@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#  setnonce.sh
+#
+echo "setnonce need to run as root enter password"
+su root /etc/rc.d/setnonce_main
+nvram -p
+

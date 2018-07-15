@@ -1,0 +1,12 @@
+#!/bin/sh
+
+#  setnonce_main.sh
+#
+main (){
+	sudo nvram com.apple.System.boot-nonce=$nonce
+}
+
+
+
+
+
