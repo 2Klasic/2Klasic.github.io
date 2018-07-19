@@ -1,7 +1,7 @@
 Package: com.2Klasic.AeroTV
 Name: AeroTV
 Version: 1.0b8
-Architecture: iphoneos-arm
+Architecture: appletv-arm64
 Description: Broadcast Network TV 
 Maintainer: @2Klasic <2Klasic@icloud.com>
 Author: @AeroTV <2Klasic@icloud.com>
