@@ -5,28 +5,13 @@ Maintainer: @2Klasic <2Klasic@icloud.com>
 Depends: firmware (>=9.0)
 Filename: ./debs/com.2klasic.aerotv_1.0b8_appletv-arm64.deb
 Size: 23757780
-MD5sum: daa08ebd50211e9ea3659d2180c30ee5
-SHA1: 931e21afda05a67abb791aa3fd2fbae2f7d0fef0
-SHA256: 07e35730295563b5201fa9afff63efe821e74ca54a5957e6ca4d9b0c85f9940b
+MD5sum: 6578eadc8d98916bb6b5abb8861e0dbc
+SHA1: 921a82d6088ebfe1c237b952955fef3aab3a6f24
+SHA256: 17b0a4f64066825a61ef12ef6bf0d61c04320b86d1b6567599800ddf934c0216
 Section: Entertainment
 Description: Broadcast Network TV
 Author: @AeroTV <2Klasic@icloud.com>
 Name: AeroTV
-
-Package: com.2klasic.Dropofjupitor
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: 2klasic <2klasic@gmail.com>
-Depends: com.anemonetheming.anemone
-Filename: ./debs/com.2klasic.dropofjupitor_1.0_iphoneos-arm.deb
-Size: 22784
-MD5sum: eb9abbf4d605308938925a5fe1409f9b
-SHA1: f28582938468d120c5dfb28d88ab7e48065298ba
-SHA256: 536fa74cc0e6a55a48ae61b103f7d46844a7a52a80255cc5cbc06e5fd4ae340f
-Section: Anemone Fonts
-Description: Clean . For Anemone.
-Author: dafont
-Name: Drops Of Jupitor (iOS10/11)
 
 Package: com.2klasic.xpwn
 Version: 1.1
@@ -36,9 +21,9 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: openssl, png
 Filename: ./debs/com.2klasic.xpwn_1.1_iphoneos-arm.deb
 Size: 128490
-MD5sum: 3f55fe2b70fa950ada4e9383183a2f67
-SHA1: 626220da4d0b6f224a89e8bcae98212ca66e2100
-SHA256: 377113a848232d9d5e59181674a8d858786047d9c938ea41d8797d7a97b2d0ec
+MD5sum: 427e9dfaaa109d41d1d39c33fbb75393
+SHA1: 40f28105395caa4abc32746399982d5a861a8323
+SHA256: 5425096644daa032132f3f22f038eb0b64749743a7a9ed06b3f1824364f05df4
 Section: Archiving
 Description: portable, barebones PwnageTool implementation
 Author: planetbeing <planetbeing@gmail.com>
@@ -51,9 +36,9 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 5819
 Filename: ./debs/com.aerialx.ishshit_1.2.7b_iphoneos-arm.deb
 Size: 4211586
-MD5sum: b5421e00d1b66978c4ba3da05aebf425
-SHA1: 6525b3341dac45a785e9a2adebc01ff970c3b183
-SHA256: 396d46032fd2f46ba8547732ce485febc50caa0483a9d05909f11ee8abdc0ffb
+MD5sum: a0a388bb0dfe0781cefeced564ca151d
+SHA1: 90fc201686eaed3c7bbd50fc10e2aae0098ae7c9
+SHA256: 455fb0fbf27efd8b80608d848bd1e92c1fed7a4057834a634cc6aea23fc46d82
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ishshitData
 Description: Easily backup firmware SHSH blobs!
@@ -69,9 +54,9 @@ Architecture: iphoneos-arm
 Maintainer: 2Klasic <derobi@icloud.com>
 Filename: ./debs/com.iapeiron.savethemblobs_1.0b1_iphoneos-arm.deb
 Size: 24625154
-MD5sum: c5951ada705e88b1a68dcab16f093247
-SHA1: 40b460d10b2621fb9198d01516af58f76e93982f
-SHA256: 7a119a03720b3fe24cc1b2d1320d5f057ff36b9dbcb1f292d749c18b042abc49
+MD5sum: 490e2e705abb6b4d8eb251c4faf002a0
+SHA1: 4b254bb7dfcba73bbe5f10b02d3d50cbbe664e11
+SHA256: bfa3548e3f1858e0143494132040543feed2944d609e18d74be78b15bac720ad
 Section: Utilities
 Description: Easily save/manage SHSH blobs from Apple and Cydia, This is currently a working beta.
 Author: iAperion <aperion@hotmail.ca>
@@ -84,9 +69,9 @@ Maintainer: @2Klasic <derobi@icloud.com>
 Depends: openssl, debianutils, coreutils
 Filename: ./debs/com.itrickz.iutility4ios_2.3.4_iphoneos-arm.deb
 Size: 2144
-MD5sum: 27daa0977740ebd1708ab4e6dee37888
-SHA1: f1367e7b642bed12e01b3a4a151cd9070436b3a2
-SHA256: b72bae54cb7035ee823475bd4b4f196c3ecb402221bac8eb9f9723d728f75819
+MD5sum: cfc6519dbd7c2df3d534bd02e9450f47
+SHA1: 9d9605f1e6cb93cf644e751ddf152d9fcde71a81
+SHA256: ca6319210483f13ca5575294f0988905db1edccdcd474ff454826c3ac5e8b65b
 Section: Tweaks
 Description: iOS Utility Script to use this package open your favorite mobile terminal and type 'util' to start to use this package. Please submit and issues or feature requests to 2Klasic on twitter or iTrickzGG on twitter.
 Author: @iTrickzGG <itrickz101@gmail.com>
@@ -100,9 +85,9 @@ Installed-Size: 325
 Depends: firmware (>= 4.0), system-cmds
 Filename: ./debs/com.officialscheduler.mterminal_1.4-5_iphoneos-arm.deb
 Size: 129050
-MD5sum: 5015a53eab48a337af73cff98c9ee83d
-SHA1: ca33059f2f700266c11230c6ba360e2b8f66e3f0
-SHA256: b2045d471e5c1e63889da0199aa119004074caa969880dd327a85f7c965f9ce8
+MD5sum: 5b48a4675e0de8cad00ee170f671782b
+SHA1: 46dad41794e3cdab6fcde3286d40ddf4f6ca2378
+SHA256: 7b4203734b4e41a77af12eb43117f4e0dcfbd6155419fa1268390d230b3a6886
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mterminalDp
 Description: A MobileTerminal fork
@@ -121,9 +106,9 @@ Maintainer: awesomebing1
 Replaces: com.innoying.sbutils
 Filename: ./debs/io.github.awesomebing1.sbutils_2.1.1_iphoneos-arm.deb
 Size: 61844
-MD5sum: 646aaee9eaa8f7fdabc5809c6afeeea0
-SHA1: d323412f00ec81e432af6f62b2e44231c1601c47
-SHA256: 01ebf686b24e4a299b3ac2c01c39729a0f395215f183a883061bcab8d041e0f6
+MD5sum: ecadda6ee7b8b1b3345a769c3c54fafb
+SHA1: 090cd0f1632bd7cc1623a595f52bfe8904c70955
+SHA256: 19023e402d0f9f3b9b06ea860e6d7a5cf6f15390620ab2ec0db39fbedbbbe6f4
 Section: System
 Description: iOS utilities - replaces some broken Erica utilities and adds a bunch of new ones. And, this time, it might work. Originally made by innoying.
 Tag: role::hacker
@@ -137,9 +122,9 @@ Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=9.3), zip, unzip, dpkg, debianutils, apt, apt7-key, apt7, apt7-lib, coreutils
 Filename: ./debs/net.if0x.cybackup10_0.0.3_iphoneos-arm.deb
 Size: 9876
-MD5sum: 12fb8fdecfc25723a001c277def5f09e
-SHA1: 333d9ff5a9014ac9c7e955a391530d9087d30fec
-SHA256: f8e86ff3a0afe729f2263b2f6748d9ff8fa5ccae6104839ca0765af5c6a45bdb
+MD5sum: c8220a2ad1ffd57bd847e7564a0099c0
+SHA1: 66c63092a9af0eca672ec47db8732ee7c13c2de4
+SHA256: 1df29d658bd994c64138e2ced3c4bbf08ada1b416405eb760438b914268dd012
 Section: Tweaks
 Description: This version is currently UNTESTED. Backup installed tweaks (atm only main repos) as .debs and make a .zip Backup folder in /. To start type cybkp in MTerminal. Thanks to /u/elsatour for the idea and help. For support follow me on twitter (@if0xxx)
 Author: @if0xxx <if0x2080@gmail.com>
@@ -152,9 +137,9 @@ Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=10.2)
 Filename: ./debs/net.if0x.setnonce_0.0.5-2_iphoneos-arm.deb
 Size: 1220
-MD5sum: 28c3fe720c51391ef4fb599ca3241f7e
-SHA1: 1b09c1833e9d58bb3a7a7ce5e647a5fefe7bded6
-SHA256: e2bd80b6c7d09327a4135b6f80789d2923d28754249d1a17292042d1d6048673
+MD5sum: 6c8aadc9fb4ab02807cee58fa41c7947
+SHA1: 2c81d35313391c5909eee94913a0e49791d8faad
+SHA256: 1de900d9936059c3da7bdfb32ec9f8c59420c892fa68dbdcfadd915c0ae87df8
 Section: Tweaks
 Description: Shortcut for setting Bootnonce. On first run (and after each update (will fix this later)) type: setnonce_setup into terminal (please run as root).After that your nonce will be set automatically After each rejailbreak. Please thank @2klasic for „bothering“ me to package this and @qwertyoruiopz for giving me the hint for automatation. No warranty. Partial UNTESTED. Only work if NvRam is patched. If no Problems occur the last update.
 Author: @if0xxx <if0x2080@gmail.com>
@@ -167,9 +152,9 @@ Maintainer: iAperion <aperion@hotmail.ca>
 Depends: python
 Filename: ./debs/setuptools_0.6c11_iphoneos-arm.deb
 Size: 1640188
-MD5sum: a6f2f34510800eafb0ed68b521ffd7a5
-SHA1: aea6e82fe83095561aaaec2cff4b4e656550273b
-SHA256: a698e48f52b288bdcd1aabb2ef98c30f50fd7f3a7b7ee05f0ea48e073e7191bc
+MD5sum: 6fcda96a7fb550b433e0063bee746763
+SHA1: 327228c8e861b11d35d3efd23983ade023b231fd
+SHA256: 4a7c20d9cf772a22dad90f97352a63f9f207fa74a30e889741a2c9465e8f675b
 Section: Packaging
 Description: package manager for Python modules
 Name: Setup Tools
