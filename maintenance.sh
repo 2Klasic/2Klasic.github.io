@@ -9,7 +9,7 @@ rm -r Packages.bz2
 
 echo [+] Building Debs..
 dpkg-deb -bZgzip projects/iSHSHit debs
-dpkg-deb -bZgzip projects/drops_of_jupitor debs
+#dpkg-deb -bZgzip projects/drops_of_jupitor debs
 #dpkg-deb -bZgzip projects/Old_CyBackup debs
 #dpkg-deb -bZgzip projects/MovieDB debs
 #dpkg-deb -bZgzip projects/Satiné debs
