@@ -5,13 +5,28 @@ Maintainer: 2klasic <2klasic@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.2klasic.dropofjupitor_1.2_iphoneos-arm.deb
 Size: 25540002
-MD5sum: 87cd0d21cc2866b06a9a2ef346a54a98
-SHA1: 78f3dce5ec171555df3a43f5659163ae646cf148
-SHA256: 8fa1f96e214dac6007838c8c1d2589b8bbe754d032e16460f7bf72d0428defde
+MD5sum: def597ad6f4f70d30210c0121707ffef
+SHA1: fe2d53817b282f440ceae19752b9c1f14622d522
+SHA256: 63d7b5718d744e59c12292b9eb2b1046c6c772bc2aa1eefaeb413ec569c5dfc7
 Section: Anemone Fonts
 Description: Clean . For Anemone.
 Author: dafont
 Name: Drops Of Jupitor (iOS10/11)
+
+Package: com.2klasic.TurningTableHearts
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 2klasic <2klasic@gmail.com>
+Depends: com.anemonetheming.anemone
+Filename: ./debs/com.2klasic.turningtablehearts_1.0_iphoneos-arm.deb
+Size: 26682078
+MD5sum: 0ea99cc7bcd50db799dfaa12162a01eb
+SHA1: 023264604155f9245b3fadbcdf91b262314f117d
+SHA256: 1c4abe740e0aa1be9d5a44eba66d6ea478de0eb824a3b254b8d67de28350434e
+Section: Anemone Fonts
+Description: Clean . For Anemone.
+Author: dafont
+Name: TurningTableHearts (iOS10/11)
 
 Package: com.2klasic.xpwn
 Version: 1.1
@@ -21,9 +36,9 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: openssl, png
 Filename: ./debs/com.2klasic.xpwn_1.1_iphoneos-arm.deb
 Size: 128484
-MD5sum: 0959792705c7e53df5fdd8d3cb88096d
-SHA1: 732c37ca491aefe836ca86307c8a888e499e74e6
-SHA256: 18284177394ebb0c66dc049da18ebfbe591487995cf5e0b9f3e9f423119fb9f6
+MD5sum: 59a469447da5f566462f95eaa6434b4c
+SHA1: 3786c3a76f1f05f1053b39478ea4317dbe05fea7
+SHA256: 2f35dc4ad7d2f3bb961fb1b7aefdfff8091453427b1725099761b3a85f3d0404
 Section: Archiving
 Description: portable, barebones PwnageTool implementation
 Author: planetbeing <planetbeing@gmail.com>
@@ -36,9 +51,9 @@ Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=10.2)
 Filename: ./debs/net.if0x.setnonce_0.0.5-2_iphoneos-arm.deb
 Size: 1214
-MD5sum: b5ec6d52c544404876e78d673fd34108
-SHA1: 6e1d56a5e07ed2a03488e4f249eb85317a430b15
-SHA256: 21f87b38358e94ad2a51a1544f1812d2358e3464eee7d1cf8ea28e2fe9410a9f
+MD5sum: c8c43f9baf26d16f29479ba60a85a3b6
+SHA1: 3b4ff825737d9f0b94fb01d2d9796f85800c2e77
+SHA256: 934e7d8d75a2442030404490a8f7ffcea6cc4763f34ebebac10b4a5323b1c5fe
 Section: Tweaks
 Description: Shortcut for setting Bootnonce. On first run (and after each update (will fix this later)) type: setnonce_setup into terminal (please run as root).After that your nonce will be set automatically After each rejailbreak. Please thank @2klasic for „bothering“ me to package this and @qwertyoruiopz for giving me the hint for automatation. No warranty. Partial UNTESTED. Only work if NvRam is patched. If no Problems occur the last update.
 Author: @if0xxx <if0x2080@gmail.com>
