@@ -1,9 +1,0 @@
-Package: com.2klasic.TurningTableHearts
-Name: TurningTableHearts (iOS10/11)
-Depends: com.anemonetheming.anemone
-Version: 1.0
-Architecture: iphoneos-arm
-Description: Clean . For Anemone.
-Author: dafont
-Maintainer: 2klasic <2klasic@gmail.com>
-Section: Anemone Fonts
