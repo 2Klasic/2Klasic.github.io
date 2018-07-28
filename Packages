@@ -5,9 +5,9 @@ Maintainer: 2klasic <2klasic@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.2klasic.dropofjupitor_1.2_iphoneos-arm.deb
 Size: 25540002
-MD5sum: b5dee1e67276a02daa8f02b9c4b61b62
-SHA1: 384e86fc4f0b101852815718d637c602cc27105e
-SHA256: a81f0c45d6b82a88127de8607f393bb6124a37e4c1d0661115bbcfd692388845
+MD5sum: b7ecf650a00ae83e9da7ee5588870118
+SHA1: 4076e962071a172c4a4c9ee85c2933cf20204cb1
+SHA256: f879210a8c32f8fb1f995c34cee206608e6bd5fd1d33b922821bae0868d549bb
 Section: Anemone Fonts
 Description: Clean . For Anemone.
 Author: dafont
@@ -20,9 +20,9 @@ Maintainer: 2klasic <2klasic@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.2klasic.ownwritingsquad_1.0_iphoneos-arm.deb
 Size: 24015036
-MD5sum: fee75db0e3e732b560084cddf3ecc285
-SHA1: 88ee8c22866fbe0ede12657999be099d993ae4e8
-SHA256: d5869468db5527eb298e6785f09a43012cc0d6b4aefef2d5ba06482b4ecc57ff
+MD5sum: f7c6fbabe6354f96b2918b71bad97df4
+SHA1: cd17c0f3699f622934d679276646ec4722629242
+SHA256: 2d34401ae2869c7c0f6428b05444969a237604db6c792ff5dd91ea4465625aea
 Section: Anemone Fonts
 Description: Clean . For Anemone.
 Author: dafont
@@ -35,13 +35,28 @@ Maintainer: 2klasic <2klasic@gmail.com>
 Depends: com.anemonetheming.anemone
 Filename: ./debs/com.2klasic.turningtablehearts_1.0_iphoneos-arm.deb
 Size: 26682072
-MD5sum: 63cc56e00cce0c1e3e97527de3769b27
-SHA1: e1cb501bb5eea0c6240f5499b58413c4a7c1ab74
-SHA256: 67dc5b5864f33e97362387be888b3d2d8599be846832f5079c042f197841b122
+MD5sum: d913fc03672fe5441795dced428dc85b
+SHA1: 6d56f7c82b50a837dc885e49f203fbd5710a2cb2
+SHA256: feb36298def39b6298a15525ecdc819dfb0e9ae10facb1af39d3d46e26a4ab3b
 Section: Anemone Fonts
 Description: Clean . For Anemone.
 Author: dafont
 Name: TurningTableHearts (iOS10/11)
+
+Package: com.2klasic.WeAreClosed
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 2klasic <2klasic@gmail.com>
+Depends: com.anemonetheming.anemone
+Filename: ./debs/com.2klasic.weareclosed_1.0_iphoneos-arm.deb
+Size: 21301086
+MD5sum: fb065ca0b84fec5d1ba16a6c5b6f37c7
+SHA1: 45181207a948ea667edd1c818d9c1d96af591bc0
+SHA256: 32edcad3b2ad361ad73e7b46f356551d2148efc4c9c3c07f0ecee7aeba27b159
+Section: Anemone Fonts
+Description: Clean . For Anemone.
+Author: dafont
+Name: We're Closed (iOS10/11)
 
 Package: com.2klasic.xpwn
 Version: 1.1
@@ -51,9 +66,9 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: openssl, png
 Filename: ./debs/com.2klasic.xpwn_1.1_iphoneos-arm.deb
 Size: 128484
-MD5sum: 5dac55cdaedc7593dce97b8d0eef5eb7
-SHA1: ffdcf4732b392d2a30bc317a7472bd7faa327854
-SHA256: 13ff65f538269e2651d12c2c1ba544d0fbf24bb801683305699b6074f459df5a
+MD5sum: a2f542d8603d8e8a3e46f3918bb9f3c2
+SHA1: ad9b0494b59051607598e185000c44b58321def7
+SHA256: 09388891ce21ea2df1a3f1363cb8a5614b44165f5a4e9ee5fbce64c8fd6deac5
 Section: Archiving
 Description: portable, barebones PwnageTool implementation
 Author: planetbeing <planetbeing@gmail.com>
@@ -66,9 +81,9 @@ Maintainer: @if0xxx <if0x2080@gmail.com>
 Depends: firmware (>=10.2)
 Filename: ./debs/net.if0x.setnonce_0.0.5-2_iphoneos-arm.deb
 Size: 1214
-MD5sum: 62cebe7bdb9be31e6eff8762c25dccda
-SHA1: 5917d3582a4fbefe86020c59e38504e24e2b2f83
-SHA256: 3e0ae38aa8ac2e11d3a1fdccc69f342e55a606b9e13eda663274f747560dd430
+MD5sum: 5164cd423790baeeb3fbde6f59450221
+SHA1: fc1eb617ed7fc3653bc51f6f7ad03d0db72f1ea6
+SHA256: 5b1914028ed90cd06cc7280143e0cf6e5ba18ede4e2776b8ac04ed80af874007
 Section: Tweaks
 Description: Shortcut for setting Bootnonce. On first run (and after each update (will fix this later)) type: setnonce_setup into terminal (please run as root).After that your nonce will be set automatically After each rejailbreak. Please thank @2klasic for „bothering“ me to package this and @qwertyoruiopz for giving me the hint for automatation. No warranty. Partial UNTESTED. Only work if NvRam is patched. If no Problems occur the last update.
 Author: @if0xxx <if0x2080@gmail.com>
