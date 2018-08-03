@@ -1,0 +1,9 @@
+Package: com.2klasic.Dropofjupitor2
+Name: DropsOfJupitor2
+Depends: com.anemonetheming.anemone
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Clean . For Anemone.
+Author: dafont
+Maintainer: 2klasic <2klasic@gmail.com>
+Section: Anemone Fonts

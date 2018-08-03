@@ -13,9 +13,10 @@ dpkg-deb -bZgzip projects/drops_of_jupitor debs
 dpkg-deb -bZgzip projects/TurningTableHearts debs
 dpkg-deb -bZgzip projects/OwnWritingSquad debs
 dpkg-deb -bZgzip projects/WeAreClosed debs
+dpkg-deb -bZgzip projects/DropsOfJupitor2 debs
 #dpkg-deb -bZgzip projects/Old_CyBackup debs
 #dpkg-deb -bZgzip projects/MovieDB debs
-#dpkg-deb -bZgzip projects/Satiné debs
+dpkg-deb -bZgzip projects/Satiné debs
 #dpkg-deb -bZgzip projects/BobbyMovie_2.3.0 debs
 #dpkg-deb -bZgzip projects/BobbyMovie_3.0.1 debs
 #dpkg-deb -bZgzip projects/BobbyMovie_3.0.4 debs
